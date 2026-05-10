@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-10 12:40 UTC",
-  "total": 133,
+  "generated_at": "2026-05-10 13:01 UTC",
+  "total": 132,
   "by_category": {
     "News": 11,
-    "Entertainment": 26,
+    "Entertainment": 24,
     "Movies": 33,
     "Music": 19,
-    "Sports": 2,
+    "Sports": 3,
     "Kids": 3,
     "Religious": 25,
     "Local": 3,
@@ -230,15 +230,6 @@
       "country": ""
     },
     {
-      "name": "MBC Persia",
-      "category": "Entertainment",
-      "url": "https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index.m3u8",
-      "source": "free-tv-iptv-master",
-      "tvg_id": "MBCPersia.ae",
-      "language": "",
-      "country": "AE"
-    },
-    {
       "name": "MBC Persia (1080p)",
       "category": "Entertainment",
       "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-persia/818ee8e4b592dc497608f066d825bfb4/index.m3u8",
@@ -334,15 +325,6 @@
       "url": "https://itnhls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "TVITN.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "YourTime TV",
-      "category": "Entertainment",
-      "url": "https://hls.yourtime.live/hls/stream.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "YourTimeTV.ir@SD",
       "language": "",
       "country": ""
     },
@@ -829,6 +811,15 @@
       "url": "https://fighthls.persiana.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "PersianaFight.fr@HD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "Persiana Sports 1 (TEST)",
+      "category": "Sports",
+      "url": "https://gg.hls2.xyz/live/Persiana%20Sports/playlist.m3u8",
+      "source": "manual",
+      "tvg_id": "persiana-sports-1",
       "language": "",
       "country": ""
     },

@@ -13,9 +13,9 @@
 #   - IPTV Smarters Pro
 #   - VLC
 #
-# Once you confirm a working app, add channels here in this format:
-#
-#   #EXTINF:-1 group-title="Sports",Persiana Sports 1
-#   #EXTVLCOPT:http-referrer=https://www.aparatchi.com/
-#   #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#   https://gg.hls2.xyz/live/Persiana%20Sports/playlist.m3u8
+# Test channel — verifies whether the user's TV app honors EXTVLCOPT.
+# If this plays, the aparatchi path is unlocked; if not, remove it.
+#EXTINF:-1 tvg-id="persiana-sports-1" group-title="Sports",Persiana Sports 1 (TEST)
+#EXTVLCOPT:http-referrer=https://www.aparatchi.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://gg.hls2.xyz/live/Persiana%20Sports/playlist.m3u8
