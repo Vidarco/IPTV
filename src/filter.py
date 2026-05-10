@@ -56,6 +56,27 @@ _FOREIGN_COUNTRIES = {
 _PERSIAN_LANGS = {"fas", "per", "fa"}
 
 
+# Hosts known to serve malformed HLS that strict TV players (e.g. Samsung's
+# native player) reject with PLAYER_ERROR_NOT_SUPPORTED_FILE. ffprobe accepts
+# the streams (it's lenient), so they pass our validation step but don't
+# actually play. We drop them at the filter stage.
+#
+# telewebion.ir: serves "EXT-X-VERSION:6" without the leading '#' on the tag.
+_BAD_HLS_HOSTS = {
+    "telewebion.ir",
+    "ncdn.telewebion.ir",
+}
+
+
+def _host_blocked(url: str) -> bool:
+    from urllib.parse import urlparse
+    try:
+        host = urlparse(url).hostname or ""
+    except Exception:
+        return False
+    return host.lower() in _BAD_HLS_HOSTS
+
+
 def _country_codes(channel: Channel) -> set[str]:
     return {
         c.strip()
@@ -83,6 +104,8 @@ def matches(channel: Channel, country_filter: list[str], language_filter: list[s
     """Decide whether to keep a channel.
 
     Logic:
+        - Drop URLs from hosts known to serve malformed HLS (Samsung's
+          strict player rejects these even though ffprobe accepts them).
         - If the channel's tvg-country is a known non-Persian country AND its
           language isn't fas/per/dari, drop it. (Kills Arirang from country=KR.)
         - If the source pre-filtered (e.g. iptv-org's ir.m3u with no filters
@@ -92,6 +115,9 @@ def matches(channel: Channel, country_filter: list[str], language_filter: list[s
           like "iran" or "pmc" are too loose for the broad firehose and
           let in noise (PMC Telugu, Melody FM Jordan, etc.).
     """
+    if _host_blocked(channel.url):
+        return False
+
     countries = _country_codes(channel)
     languages = _language_codes(channel)
 

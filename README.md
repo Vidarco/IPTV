@@ -5,17 +5,30 @@ TV channels from public sources. Refreshed weekly via GitHub Actions.
 
 ## Use it on your Samsung TV
 
-1. Install the **M3U IPTV** app from the Samsung App Store (free).
+1. Install an M3U-capable IPTV app from the Samsung Tizen App Store.
 2. Open the app and add a playlist with this URL:
 
    ```
    https://raw.githubusercontent.com/Vidarco/IPTV/main/output/iran-persian.m3u
    ```
-3. Channels are grouped by category (News, Entertainment, Movies, Music, Sports, Kids,
-   Religious, General). The app reads `group-title` and shows them as folders.
+3. Channels are grouped by category (News, Entertainment, Movies, Music, Sports,
+   Kids, Religious, Local, General). The app reads `group-title` and shows them
+   as folders.
 
-The same URL works in VLC, OTT Navigator, TiviMate, IPTV Smarters, and most other M3U
-players.
+### Which app to use
+
+| App | Plays standard streams | Honors `#EXTVLCOPT:http-referrer` (needed for some channels via [manual.m3u](manual.m3u)) |
+|---|---|---|
+| **M3U IPTV** (free, basic) | ✅ | ❌ |
+| **OTT Navigator** | ✅ | ✅ |
+| **TiviMate** | ✅ | ✅ |
+| **IPTV Smarters Pro** | ✅ | ✅ |
+| **VLC for Samsung** | ✅ | ✅ |
+
+If you want to play channels that need a Referer header (anything we add to
+[manual.m3u](manual.m3u) for aparatchi-hosted streams), you need an app from the
+second column. The basic "M3U IPTV" app is fine if you only use the auto-aggregated
+upstream channels.
 
 ## How it works
 

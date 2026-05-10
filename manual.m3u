@@ -2,8 +2,20 @@
 # Hand-curated channels not available in iptv-org / Gitee / Free-TV.
 # Each entry MUST include the #EXTVLCOPT lines for the host that demands them.
 # Validation will pick up these headers automatically when probing.
-
-#EXTINF:-1 tvg-id="persiana-sports-1" group-title="Sports",Persiana Sports 1
-#EXTVLCOPT:http-referrer=https://www.aparatchi.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gg.hls2.xyz/live/Persiana%20Sports/playlist.m3u8
+#
+# NOTE: The Samsung "M3U IPTV" free app does NOT honor #EXTVLCOPT:http-referrer.
+# Channels that need a Referer header (gg.hls2.xyz / aparatchi-hosted streams)
+# will fail with PLAYER_ERROR_NOT_SUPPORTED_FILE on that app.
+#
+# Apps that DO honor EXTVLCOPT (test on your device):
+#   - OTT Navigator (free, on Samsung Tizen Store)
+#   - TiviMate
+#   - IPTV Smarters Pro
+#   - VLC
+#
+# Once you confirm a working app, add channels here in this format:
+#
+#   #EXTINF:-1 group-title="Sports",Persiana Sports 1
+#   #EXTVLCOPT:http-referrer=https://www.aparatchi.com/
+#   #EXTVLCOPT:http-user-agent=Mozilla/5.0
+#   https://gg.hls2.xyz/live/Persiana%20Sports/playlist.m3u8
