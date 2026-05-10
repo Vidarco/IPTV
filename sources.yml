@@ -19,17 +19,26 @@ sources:
     country_filter: []
     language_filter: []
 
+  # Afghan country list — Tolo News, Shamshad TV, Afghan Nobel TV/Movies,
+  # Afghanistan International, etc. (Persian-script Dari, very close to Farsi.)
+  - name: iptv-org-country-af
+    url: https://iptv-org.github.io/iptv/countries/af.m3u
+    enabled: true
+    country_filter: []
+    language_filter: []
+
   - name: iptv-org-master
     url: https://iptv-org.github.io/iptv/index.m3u
     enabled: true
-    country_filter: ["ir"]
-    language_filter: ["fas", "per"]
+    country_filter: ["ir", "af"]
+    language_filter: ["fas", "per", "fa", "prs", "dari"]
 
   - name: free-tv-iptv-master
     url: https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8
     enabled: true
-    country_filter: ["ir"]
-    language_filter: ["fas", "per"]
+    country_filter: ["ir", "af"]
+    language_filter: ["fas", "per", "fa", "prs", "dari"]
 
-  # Add more diaspora / community lists here as they're discovered.
-  # Use `name_keywords` (see filter.py) for sources that don't carry tvg metadata.
+  # Add more diaspora / community lists here as you discover them.
+  # Ariana Movies / Ariana Series are not in iptv-org or Free-TV; if you find
+  # a working .m3u/.m3u8 URL for them, add a source entry pointing at it.

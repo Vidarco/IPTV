@@ -23,6 +23,7 @@ CATEGORY_ORDER = [
     "Sports",
     "Kids",
     "Religious",
+    "Local",
     "General",
 ]
 

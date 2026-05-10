@@ -2,10 +2,9 @@
 # Each rule has:
 #   category:  one of News, Music, Sports, Kids, Movies, Religious, Entertainment, General
 #   keywords:  case-insensitive substrings to match against group-title and channel name
-#
-# Persian script keywords are matched alongside Latin ones.
 
 rules:
+  # ------------------------- News -------------------------
   - category: News
     keywords:
       - news
@@ -17,18 +16,29 @@ rules:
       - radio farda
       - manoto news
       - euronews
+      - irinn
+      - khabar farsi
+      - tolo news
+      - afghanistan international
+      - persiana news
+      - gem news
+      - شبکه خبر
       - خبر
       - اخبار
 
+  # ------------------------- Sports -------------------------
   - category: Sports
     keywords:
       - sport
       - varzesh
       - football
       - soccer
+      - irib3
+      - irib 3
       - ورزش
       - فوتبال
 
+  # ------------------------- Music -------------------------
   - category: Music
     keywords:
       - music
@@ -38,20 +48,34 @@ rules:
       - tapesh
       - melody
       - bia2
+      - persiana music
+      - persiana folk
+      - persiana pop
+      - persiana traditional
+      - gem music
+      - gem rivii
+      - gem rubix
       - موسیقی
       - رادیو
 
+  # ------------------------- Kids -------------------------
   - category: Kids
     keywords:
       - kid
       - kids
       - cartoon
       - children
+      - junior
       - pooya
       - nahal
+      - persiana junior
+      - gem junior
+      - gem kids
       - کودک
       - پویا
+      - نهال
 
+  # ------------------------- Movies -------------------------
   - category: Movies
     keywords:
       - movie
@@ -59,9 +83,37 @@ rules:
       - film
       - sinema
       - filmnet
+      - persiana cinema
+      - persiana movie
+      - persiana iranian
+      - persiana fight
+      - persiana family
+      - persiana classic
+      - persiana drama
+      - persiana docs
+      - persiana documentary
+      - persiana comedy
+      - persiana scifi
+      - gem bollywood
+      - gem classic
+      - gem comedy
+      - gem drama
+      - gem film
+      - gem first
+      - gem onyx
+      - gem onlive
+      - gem rivii
+      - gem rubix
+      - gem series
+      - gem rivii
+      - ifilm
+      - ariana movies
+      - ariana series
       - فیلم
       - سینما
+      - سریال
 
+  # ------------------------- Religious -------------------------
   - category: Religious
     keywords:
       - quran
@@ -72,9 +124,42 @@ rules:
       - velayat
       - hadi
       - imam
+      - sahar
+      - wisehumantv
+      - razavi
+      - tekyemadahi
+      - labbayk
+      - ganj e hozour
+      - nejat
+      - noor
+      - tbn
+      - eslah
       - مذهبی
       - قرآن
 
+  # ------------------------- IRIB sub-channels -------------------------
+  # These are state-TV themed channels. We bucket them as "Entertainment"
+  # unless a more specific rule above caught them.
+  - category: Entertainment
+    keywords:
+      - irib1
+      - irib 1
+      - irib2
+      - irib 2
+      - irib4
+      - irib 4
+      - irib5
+      - irib 5
+      - irib uhd
+      - tamasha
+      - ofogh
+      - sepehr
+      - shoma
+      - mostanad
+      - amoozesh
+      - salamat
+
+  # ------------------------- Entertainment / general TV -------------------------
   - category: Entertainment
     keywords:
       - entertainment
@@ -84,4 +169,66 @@ rules:
       - tv plus
       - mbc persia
       - persiana
+      - ariana
+      - tolo
+      - shamshad
+      - lemar
+      - kabul
+      - pars tv
+      - ava family
+      - ava series
+      - افغان
       - سرگرمی
+
+  # ------------------------- Local (Iranian provinces & cities) -------------------------
+  # IRIB-IR's regional/provincial broadcasters. They show up in the country=IR
+  # list with no useful group-title.
+  - category: Local
+    keywords:
+      - abadan
+      - aflak
+      - aftab
+      - alborz
+      - amouzesh
+      - ara
+      - arax
+      - arko
+      - arvan
+      - atrak
+      - azerbaijan
+      - baran
+      - bushehr
+      - dena
+      - eshragh
+      - fars
+      - golkhane
+      - hamedan
+      - hamoon
+      - ilam
+      - isfahan
+      - jahanbin
+      - kerman
+      - khalij
+      - khavaran
+      - khorasan
+      - khozestan
+      - khuzestan
+      - kish
+      - kordestan
+      - kurdestan
+      - mahabad
+      - qazvin
+      - razavi tv
+      - sabalan
+      - sabz
+      - sahand
+      - sarbedaran
+      - semnan
+      - tabarestan
+      - tabriz
+      - tehran
+      - yazd
+      - zagros
+      - zanjan
+      - chaharmahal
+      - sistan
