@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-10 10:14 UTC",
-  "total": 200,
+  "generated_at": "2026-05-10 10:25 UTC",
+  "total": 174,
   "by_category": {
-    "News": 14,
-    "Entertainment": 33,
-    "Movies": 30,
-    "Music": 18,
-    "Sports": 4,
-    "Kids": 6,
-    "Religious": 21,
-    "General": 74
+    "News": 12,
+    "Entertainment": 29,
+    "Movies": 28,
+    "Music": 17,
+    "Sports": 3,
+    "Kids": 3,
+    "Religious": 19,
+    "General": 63
   },
   "channels": [
     {
@@ -45,15 +45,6 @@
       "url": "https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2.mpd",
       "source": "iptv-org-language-fas",
       "tvg_id": "BBCPersian.uk@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Didgah TV (576p)",
-      "category": "News",
-      "url": "https://media.streambrothers.com:1936/8276/8276/playlist.m3u8",
-      "source": "iptv-org-language-fas",
-      "tvg_id": "DidgahTV.us@SD",
       "language": "",
       "country": ""
     },
@@ -121,15 +112,6 @@
       "country": ""
     },
     {
-      "name": "Press TV French (1080p)",
-      "category": "News",
-      "url": "https://live4.presstv.ir/live/smil:presstvfr.smil/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "PressTVFrench.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "VOA Persian (1080p)",
       "category": "News",
       "url": "https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8",
@@ -189,24 +171,6 @@
       "url": "https://ca-rt.onetv.app/gemcomedy/index-0.m3u8?token=onetv202",
       "source": "iptv-org-country-ir",
       "tvg_id": "GEMComedy.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM Entertainment",
-      "category": "Entertainment",
-      "url": "https://ca-rt.onetv.app/gementertainment/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMEntertainment.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM Food",
-      "category": "Entertainment",
-      "url": "https://ca-rt.onetv.app/gemfood/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMFood.tr@SD",
       "language": "",
       "country": ""
     },
@@ -281,15 +245,6 @@
       "tvg_id": "Manoto.uk@SD",
       "language": "",
       "country": ""
-    },
-    {
-      "name": "MBC Persia",
-      "category": "Entertainment",
-      "url": "https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index.m3u8",
-      "source": "free-tv-iptv-master",
-      "tvg_id": "MBCPersia.ae",
-      "language": "",
-      "country": "AE"
     },
     {
       "name": "MBC Persia (1080p)",
@@ -427,15 +382,6 @@
       "country": ""
     },
     {
-      "name": "YourTime TV",
-      "category": "Entertainment",
-      "url": "https://hls.yourtime.live/hls/stream.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "YourTimeTV.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "Cafe Film",
       "category": "Movies",
       "url": "https://cafefhls.wns.live/hls/stream.m3u8",
@@ -504,24 +450,6 @@
       "url": "https://glserver1.tamashaland.com/live/aBCH96886YznRbGOiqTnnQ__/stream_0.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "GEMPixel.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM Rubix",
-      "category": "Movies",
-      "url": "https://ca-rt.onetv.app/gemrubix/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMRubix.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM Rubix Plus",
-      "category": "Movies",
-      "url": "https://ca-rt.onetv.app/gemrubixplus/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMRubixPlus.tr@SD",
       "language": "",
       "country": ""
     },
@@ -742,15 +670,6 @@
       "country": ""
     },
     {
-      "name": "GEM 24B",
-      "category": "Music",
-      "url": "https://ca-rt.onetv.app/gem24b/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEM24B.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "GEM Mifa",
       "category": "Music",
       "url": "https://ca-rt.onetv.app/gemmifa/index-0.m3u8?token=onetv202",
@@ -868,15 +787,6 @@
       "country": ""
     },
     {
-      "name": "GEM Fit",
-      "category": "Sports",
-      "url": "https://ca-rt.onetv.app/gemfit/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMFit.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "IRIB3",
       "category": "Sports",
       "url": "https://ncdn.telewebion.ir/tv3/live/playlist.m3u8",
@@ -904,24 +814,6 @@
       "country": ""
     },
     {
-      "name": "GEM Junior",
-      "category": "Kids",
-      "url": "https://ca-rt.onetv.app/gemjunior/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMJunior.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM Kids",
-      "category": "Kids",
-      "url": "https://ca-rt.onetv.app/gemkids/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMKids.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "Omid",
       "category": "Kids",
       "url": "https://ncdn.telewebion.ir/omid/live/playlist.m3u8",
@@ -945,15 +837,6 @@
       "url": "https://ncdn.telewebion.ir/pooya/live/playlist.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "PooyaTV.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Pooya TV Plus",
-      "category": "Kids",
-      "url": "https://ncdn.telewebion.ir/javaneh/live/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "PooyaTVPlus.ir@SD",
       "language": "",
       "country": ""
     },
@@ -1039,29 +922,20 @@
       "country": ""
     },
     {
+      "name": "LoveWorld Persia (720p)",
+      "category": "Religious",
+      "url": "https://cdn3.wowza.com/5/aVJETlF0UFdmYTFu/LWPP/ngrp:persia.stream_all/playlist.m3u8",
+      "source": "iptv-org-language-fas",
+      "tvg_id": "LoveWorldPersia.ng@SD",
+      "language": "",
+      "country": ""
+    },
+    {
       "name": "Marjaeyat TV Persian (240p) [Not 24/7]",
       "category": "Religious",
       "url": "https://livefa.marjaeyattv.com/mtv_fa/playlist.m3u8",
       "source": "iptv-org-language-fas",
       "tvg_id": "MarjaeyatTVPersian.iq@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Mohabat TV (540p)",
-      "category": "Religious",
-      "url": "http://204.11.235.251:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "MohabatTV.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Mohabat TV (540p)",
-      "category": "Religious",
-      "url": "http://media.mohabat.tv:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8",
-      "source": "iptv-org-language-fas",
-      "tvg_id": "MohabatTV.us@SD",
       "language": "",
       "country": ""
     },
@@ -1116,15 +990,6 @@
       "url": "https://sat7phls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-language-fas",
       "tvg_id": "Sat7Pars.cy@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Velayat TV",
-      "category": "Religious",
-      "url": "https://ncdn.telewebion.ir/velayat/live/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "VelayatTV.ir@SD",
       "language": "",
       "country": ""
     },
@@ -1188,15 +1053,6 @@
       "url": "https://ncdn.telewebion.ir/amouzesh/live/playlist.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "AmouzeshTV.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Ara",
-      "category": "General",
-      "url": "https://ncdn.telewebion.ir/ara/live/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "AraTV.ir@SD",
       "language": "",
       "country": ""
     },
@@ -1426,15 +1282,6 @@
       "country": ""
     },
     {
-      "name": "IRIB UHD (2160p)",
-      "category": "General",
-      "url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "IRIBUHD.ir@4K",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "IRIB1",
       "category": "General",
       "url": "https://ncdn.telewebion.ir/tv1/live/playlist.m3u8",
@@ -1485,15 +1332,6 @@
       "url": "https://kjhls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "KanalJadid.uk@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Karoon TV",
-      "category": "General",
-      "url": "https://ncdn.telewebion.ir/karoon/live/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "KaroonTV.ir@SD",
       "language": "",
       "country": ""
     },
@@ -1561,15 +1399,6 @@
       "country": ""
     },
     {
-      "name": "Labbayk TV",
-      "category": "General",
-      "url": "https://ncdn.telewebion.ir/labbayk/live/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "LabbaykTV.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "Mahabad",
       "category": "General",
       "url": "https://ncdn.telewebion.ir/mahabad/live/playlist.m3u8",
@@ -1597,29 +1426,11 @@
       "country": ""
     },
     {
-      "name": "Nama TV",
-      "category": "General",
-      "url": "https://ncdn.telewebion.ir/nama/live/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "NamaTV.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "Noor",
       "category": "General",
       "url": "https://ncdn.telewebion.ir/noor/live/playlist.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "NoorTV.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Ofogh",
-      "category": "General",
-      "url": "https://ncdn.telewebion.ir/ofogh/live/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "OfoghTV.ir@SD",
       "language": "",
       "country": ""
     },
@@ -1660,24 +1471,6 @@
       "country": ""
     },
     {
-      "name": "Razavi TV",
-      "category": "General",
-      "url": "https://ncdn.telewebion.ir/razavi/live/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "RazaviTV.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Roya TV",
-      "category": "General",
-      "url": "https://ncdn.telewebion.ir/iribu/live/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "RoyaTV.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "Sabalan",
       "category": "General",
       "url": "https://ncdn.telewebion.ir/sabalan/live/playlist.m3u8",
@@ -1714,29 +1507,11 @@
       "country": ""
     },
     {
-      "name": "Sarbedaran",
-      "category": "General",
-      "url": "https://ncdn.telewebion.ir/sarbedaran/live/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "SarbedaranTV.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "Semnan",
       "category": "General",
       "url": "https://ncdn.telewebion.ir/semnan/live/playlist.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "SemnanTV.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Sepehr",
-      "category": "General",
-      "url": "https://ncdn.telewebion.ir/sepehr/live/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "SepehrTV.ir@SD",
       "language": "",
       "country": ""
     },
@@ -1782,15 +1557,6 @@
       "url": "https://hls.tmtv.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "TMTV.us@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "TVA Nava",
-      "category": "General",
-      "url": "https://ncdn.telewebion.ir/nava/live/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "TVANava.ir@SD",
       "language": "",
       "country": ""
     },
