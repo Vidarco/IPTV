@@ -15,8 +15,8 @@ from src.m3u import Channel
 # matched as substring — boundary semantics don't apply cleanly to non-Latin.
 _LATIN_KEYWORDS = [
     # Strong brand names — unambiguous
-    "manoto", "persiana", "ariana", "irib", "ifilm", "tapesh", "andisheh",
-    "didgah", "pmc", "tolo", "lemar", "shamshad", "kabul", "azadi",
+    "manoto", "persiana", "irib", "ifilm", "tapesh", "andisheh",
+    "didgah", "pmc", "azadi",
     # Phrasal brand names
     "iran international", "bbc persian", "voa farsi", "voa persian",
     "radio farda", "press tv", "hispan tv", "iran tv", "iran nama",
@@ -53,7 +53,7 @@ _FOREIGN_COUNTRIES = {
     "eg", "sa", "ae", "qa", "kw", "iq", "sy", "lb", "jo", "ma", "dz", "tn",
 }
 
-_PERSIAN_LANGS = {"fas", "per", "fa", "prs", "tg", "tgk", "dari"}
+_PERSIAN_LANGS = {"fas", "per", "fa"}
 
 
 def _country_codes(channel: Channel) -> set[str]:
@@ -114,11 +114,13 @@ def matches(channel: Channel, country_filter: list[str], language_filter: list[s
 # Strong brands: kept even if the channel has a foreign country tag (some
 # diaspora broadcasters license themselves under odd country codes).
 _STRONG_BRANDS = [
-    "manoto", "persiana", "ariana", "irib", "ifilm", "tapesh", "andisheh",
-    "didgah", "tolo", "lemar", "shamshad",
+    "manoto", "persiana", "irib", "ifilm", "tapesh", "andisheh",
+    "didgah", "ganje hozoor", "ganj e hozour",
     "iran international", "bbc persian", "voa farsi", "voa persian",
     "radio farda", "press tv", "iran tv network", "iran nama", "pars tv",
-    "mbc persia", "channel one persia",
+    "mbc persia", "channel one persia", "hispan tv", "iran-e farda",
+    "imam hussein", "esra tv", "icc tv", "al-alam", "ayeneh", "canada star",
+    "gem usa", "gem junior", "gem kids",
 ]
 _STRONG_BRAND_RE = re.compile(
     r"\b(" + "|".join(re.escape(k) for k in _STRONG_BRANDS) + r")\b",
