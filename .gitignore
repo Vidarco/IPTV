@@ -22,3 +22,6 @@ cache/
 
 # Local-install of Python deps for portable-Python users (CI uses pip directly)
 .deps/
+
+# Local IDE / Claude scratch
+.claude/
