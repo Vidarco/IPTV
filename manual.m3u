@@ -1,0 +1,9 @@
+#EXTM3U
+# Hand-curated channels not available in iptv-org / Gitee / Free-TV.
+# Each entry MUST include the #EXTVLCOPT lines for the host that demands them.
+# Validation will pick up these headers automatically when probing.
+
+#EXTINF:-1 tvg-id="persiana-sports-1" group-title="Sports",Persiana Sports 1
+#EXTVLCOPT:http-referrer=https://www.aparatchi.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://gg.hls2.xyz/live/Persiana%20Sports/playlist.m3u8

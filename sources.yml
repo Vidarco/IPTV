@@ -40,4 +40,13 @@ sources:
     country_filter: ["ir"]
     language_filter: ["fas", "per", "fa"]
 
+  # Hand-curated channels (manual.m3u in repo root). Use this for streams
+  # that demand a Referer header, or that aren't in any upstream list.
+  # Each entry should include #EXTVLCOPT:http-referrer / http-user-agent lines.
+  - name: manual
+    url: manual.m3u
+    enabled: true
+    country_filter: []
+    language_filter: []
+
   # Add more diaspora / community lists here as you discover them.

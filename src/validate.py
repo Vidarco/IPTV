@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import asyncio
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -26,6 +27,29 @@ import httpx
 from src.fetch import load_sources, fetch_all
 from src.filter import filter_all
 from src.m3u import Channel
+
+
+_EXTVLCOPT_RE = re.compile(r"#EXTVLCOPT:http-([\w-]+)=(.+)$", re.IGNORECASE)
+_HEADER_NAMES = {"referrer": "Referer", "user-agent": "User-Agent"}
+
+
+def channel_headers(ch: Channel) -> dict[str, str]:
+    """Pull per-channel HTTP headers out of #EXTVLCOPT lines preserved in extras.
+
+    Supports http-referrer and http-user-agent — the two values most upstreams
+    care about. Empty dict means "no special headers".
+    """
+    out: dict[str, str] = {}
+    for line in ch.extras:
+        m = _EXTVLCOPT_RE.match(line.strip())
+        if not m:
+            continue
+        key = m.group(1).lower()
+        val = m.group(2).strip()
+        header_name = _HEADER_NAMES.get(key)
+        if header_name:
+            out[header_name] = val
+    return out
 
 
 HTTP_TIMEOUT = 10.0
@@ -57,10 +81,11 @@ class CheckResult:
 
 
 async def _http_probe(client: httpx.AsyncClient, ch: Channel) -> tuple[bool, int | None, str]:
+    extra_headers = channel_headers(ch)
     try:
-        r = await client.head(ch.url)
+        r = await client.head(ch.url, headers=extra_headers)
         if r.status_code in (405, 501, 403):
-            r = await client.get(ch.url, headers={"Range": "bytes=0-1023"})
+            r = await client.get(ch.url, headers={**extra_headers, "Range": "bytes=0-1023"})
         if 200 <= r.status_code < 400:
             return True, r.status_code, ""
         return False, r.status_code, f"HTTP {r.status_code}"
@@ -90,11 +115,13 @@ async def _http_probe_all(channels: list[Channel]) -> dict[str, tuple[bool, int 
     return results
 
 
-def _ffprobe_one(url: str) -> tuple[bool, str]:
+def _ffprobe_one(url: str, headers: dict[str, str] | None = None) -> tuple[bool, str]:
     """Returns (ok, error_msg). ok=True means a video/audio stream was found."""
-    cmd = [
-        "ffprobe",
-        "-v", "error",
+    cmd = ["ffprobe", "-v", "error"]
+    if headers:
+        # ffmpeg expects header lines separated by \r\n
+        cmd += ["-headers", "".join(f"{k}: {v}\r\n" for k, v in headers.items())]
+    cmd += [
         "-rw_timeout", str(FFPROBE_TIMEOUT * 1_000_000),
         "-show_entries", "stream=codec_type",
         "-of", "default=nw=1:nk=1",
@@ -146,7 +173,8 @@ async def _ffprobe_all(
             results[ch.url] = (False, "http failed")
             return
         async with sem:
-            ok, err = await loop.run_in_executor(None, _ffprobe_one, ch.url)
+            extra = channel_headers(ch) or None
+            ok, err = await loop.run_in_executor(None, _ffprobe_one, ch.url, extra)
             results[ch.url] = (ok, err)
 
     await asyncio.gather(*(worker(c) for c in channels))

@@ -33,17 +33,25 @@ def load_sources(path: Path) -> list[Source]:
 def fetch_all(sources: list[Source], timeout: float = 30.0) -> dict[str, list[Channel]]:
     """Fetch every enabled source. Returns {source_name: [Channel, ...]}.
 
+    URLs starting with http(s):// are fetched over HTTP. Anything else is
+    treated as a repo-relative path to a local M3U file (e.g. manual.m3u).
     Failures are logged but don't abort the run — one dead upstream shouldn't
     sink the whole pipeline.
     """
+    repo_root = Path(__file__).resolve().parents[1]
     results: dict[str, list[Channel]] = {}
     headers = {"User-Agent": "iran-persian-iptv/0.1 (+https://github.com)"}
     with httpx.Client(timeout=timeout, headers=headers, follow_redirects=True) as client:
         for src in sources:
             try:
-                resp = client.get(src.url)
-                resp.raise_for_status()
-                channels = parse(resp.text, source=src.name)
+                if src.url.startswith(("http://", "https://")):
+                    resp = client.get(src.url)
+                    resp.raise_for_status()
+                    text = resp.text
+                else:
+                    rel = src.url.removeprefix("file://")
+                    text = (repo_root / rel).read_text(encoding="utf-8")
+                channels = parse(text, source=src.name)
                 results[src.name] = channels
                 print(f"[fetch] {src.name}: {len(channels)} entries", file=sys.stderr)
             except Exception as e:
