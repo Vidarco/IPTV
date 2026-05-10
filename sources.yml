@@ -1,0 +1,35 @@
+# Upstream M3U sources to aggregate.
+#
+# `country_filter` and `language_filter` (lowercase ISO codes) are applied if the
+# source is broad. For sources that are already pre-filtered to Iran/Persian
+# (e.g. iptv-org's ir.m3u), leave the filters empty to take everything.
+#
+# `enabled: false` to temporarily skip a source without deleting it.
+
+sources:
+  - name: iptv-org-country-ir
+    url: https://iptv-org.github.io/iptv/countries/ir.m3u
+    enabled: true
+    country_filter: []
+    language_filter: []
+
+  - name: iptv-org-language-fas
+    url: https://iptv-org.github.io/iptv/languages/fas.m3u
+    enabled: true
+    country_filter: []
+    language_filter: []
+
+  - name: iptv-org-master
+    url: https://iptv-org.github.io/iptv/index.m3u
+    enabled: true
+    country_filter: ["ir"]
+    language_filter: ["fas", "per"]
+
+  - name: free-tv-iptv-master
+    url: https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8
+    enabled: true
+    country_filter: ["ir"]
+    language_filter: ["fas", "per"]
+
+  # Add more diaspora / community lists here as they're discovered.
+  # Use `name_keywords` (see filter.py) for sources that don't carry tvg metadata.

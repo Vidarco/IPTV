@@ -1,0 +1,87 @@
+# Category rules. First match wins, evaluated top-to-bottom.
+# Each rule has:
+#   category:  one of News, Music, Sports, Kids, Movies, Religious, Entertainment, General
+#   keywords:  case-insensitive substrings to match against group-title and channel name
+#
+# Persian script keywords are matched alongside Latin ones.
+
+rules:
+  - category: News
+    keywords:
+      - news
+      - khabar
+      - press tv
+      - bbc persian
+      - voa
+      - iran international
+      - radio farda
+      - manoto news
+      - euronews
+      - خبر
+      - اخبار
+
+  - category: Sports
+    keywords:
+      - sport
+      - varzesh
+      - football
+      - soccer
+      - ورزش
+      - فوتبال
+
+  - category: Music
+    keywords:
+      - music
+      - musiqi
+      - radio
+      - pmc
+      - tapesh
+      - melody
+      - bia2
+      - موسیقی
+      - رادیو
+
+  - category: Kids
+    keywords:
+      - kid
+      - kids
+      - cartoon
+      - children
+      - pooya
+      - nahal
+      - کودک
+      - پویا
+
+  - category: Movies
+    keywords:
+      - movie
+      - cinema
+      - film
+      - sinema
+      - filmnet
+      - فیلم
+      - سینما
+
+  - category: Religious
+    keywords:
+      - quran
+      - islam
+      - shia
+      - sunni
+      - religious
+      - velayat
+      - hadi
+      - imam
+      - مذهبی
+      - قرآن
+
+  - category: Entertainment
+    keywords:
+      - entertainment
+      - sargarmi
+      - gem
+      - manoto
+      - tv plus
+      - mbc persia
+      - persiana
+      - سرگرمی
