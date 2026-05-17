@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-10 13:01 UTC",
-  "total": 132,
+  "generated_at": "2026-05-17 06:45 UTC",
+  "total": 120,
   "by_category": {
-    "News": 11,
-    "Entertainment": 24,
-    "Movies": 33,
-    "Music": 19,
-    "Sports": 3,
-    "Kids": 3,
-    "Religious": 25,
+    "News": 10,
+    "Entertainment": 23,
+    "Movies": 32,
+    "Music": 17,
+    "Sports": 2,
+    "Kids": 4,
+    "Religious": 21,
     "Local": 3,
-    "General": 11
+    "General": 8
   },
   "channels": [
     {
@@ -38,15 +38,6 @@
       "source": "iptv-org-language-fas",
       "tvg_id": "DidgahTV.us@SD",
       "language": "",
-      "country": ""
-    },
-    {
-      "name": "Iran International",
-      "category": "News",
-      "url": "https://svs.itworkscdn.net/iinternationallive/iintl.smil/playlist.m3u8",
-      "source": "gitee-null_063_9458-ir",
-      "tvg_id": "",
-      "language": "Persian",
       "country": ""
     },
     {
@@ -163,15 +154,6 @@
       "url": "https://toonixhls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "FX2.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM Entertainment",
-      "category": "Entertainment",
-      "url": "https://ca-rt.onetv.app/gementertainment/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMEntertainment.tr@SD",
       "language": "",
       "country": ""
     },
@@ -527,15 +509,6 @@
       "country": ""
     },
     {
-      "name": "Meta Film TV",
-      "category": "Movies",
-      "url": "https://metafilmhls.wns.live/hls/stream.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "MetaFilmTV.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "Persiana Cinema",
       "category": "Movies",
       "url": "https://cinehls.persiana.live/hls/stream.m3u8",
@@ -653,15 +626,6 @@
       "country": ""
     },
     {
-      "name": "GEM 24B",
-      "category": "Music",
-      "url": "https://ca-rt.onetv.app/gem24b/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEM24B.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "GEM Mifa",
       "category": "Music",
       "url": "https://ca-rt.onetv.app/gemmifa/index-0.m3u8?token=onetv202",
@@ -685,15 +649,6 @@
       "url": "https://ca-rt.onetv.app/gemrubix/index-0.m3u8?token=onetv202",
       "source": "iptv-org-country-ir",
       "tvg_id": "GEMRubix.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM Rubix Plus",
-      "category": "Music",
-      "url": "https://ca-rt.onetv.app/gemrubixplus/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMRubixPlus.tr@SD",
       "language": "",
       "country": ""
     },
@@ -797,15 +752,6 @@
       "country": ""
     },
     {
-      "name": "GEM Fit",
-      "category": "Sports",
-      "url": "https://ca-rt.onetv.app/gemfit/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMFit.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "Persiana Fight",
       "category": "Sports",
       "url": "https://fighthls.persiana.live/hls/stream.m3u8",
@@ -838,6 +784,15 @@
       "url": "https://ca-rt.onetv.app/gemkids/index-0.m3u8?token=onetv202",
       "source": "iptv-org-country-ir",
       "tvg_id": "GEMKids.tr@SD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "HodHod Farsi TV (1080p)",
+      "category": "Kids",
+      "url": "https://northtelecom.b-cdn.net/hodhodtv.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "HodHodFarsiTV.ir@SD",
       "language": "",
       "country": ""
     },
@@ -977,33 +932,6 @@
       "country": ""
     },
     {
-      "name": "Mohabat TV",
-      "category": "Religious",
-      "url": "https://5acf9f9415a10.streamlock.net:443/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8",
-      "source": "gitee-null_063_9458-ir",
-      "tvg_id": "",
-      "language": "Persian",
-      "country": ""
-    },
-    {
-      "name": "Mohabat TV (540p)",
-      "category": "Religious",
-      "url": "http://204.11.235.251:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "MohabatTV.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Mohabat TV (540p)",
-      "category": "Religious",
-      "url": "http://media.mohabat.tv:1935/live_transcoder/ngrp:mohabat.stream_all/playlist.m3u8",
-      "source": "iptv-org-language-fas",
-      "tvg_id": "MohabatTV.us@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "Nour TV",
       "category": "Religious",
       "url": "https://cdn.bestream.io:19360/elfaro4/elfaro4.m3u8",
@@ -1067,15 +995,6 @@
       "country": ""
     },
     {
-      "name": "WiseHumanTv (1080p)",
-      "category": "Religious",
-      "url": "https://avr.host247.net/live/WiseHumanTv/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "WiseHumanTv.ir@HD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "Arax TV",
       "category": "Local",
       "url": "https://araxhls.wns.live/hls/stream.m3u8",
@@ -1099,24 +1018,6 @@
       "url": "https://arvhls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "ArvanTV.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Al-Sirat",
-      "category": "General",
-      "url": "https://svs.itworkscdn.net/assiratvlive/assirat/playlist.m3u8",
-      "source": "gitee-null_063_9458-ir",
-      "tvg_id": "",
-      "language": "Arabic",
-      "country": ""
-    },
-    {
-      "name": "Asil TV (576p)",
-      "category": "General",
-      "url": "https://live.asil.tv/asiltv/index.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "AsilTV.ir@SD",
       "language": "",
       "country": ""
     },
@@ -1145,15 +1046,6 @@
       "source": "iptv-org-country-ir",
       "tvg_id": "DatisTV.ir@SD",
       "language": "",
-      "country": ""
-    },
-    {
-      "name": "INTV Simaye Azadi",
-      "category": "General",
-      "url": "https://sima-i.akamaihd.net/hls/live/624111/sima/index.m3u8",
-      "source": "gitee-null_063_9458-ir",
-      "tvg_id": "",
-      "language": "Persian",
       "country": ""
     },
     {
