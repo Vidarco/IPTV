@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-17 06:45 UTC",
-  "total": 120,
+  "generated_at": "2026-05-24 07:21 UTC",
+  "total": 117,
   "by_category": {
-    "News": 10,
-    "Entertainment": 23,
-    "Movies": 32,
-    "Music": 17,
+    "News": 9,
+    "Entertainment": 19,
+    "Movies": 33,
+    "Music": 16,
     "Sports": 2,
     "Kids": 4,
-    "Religious": 21,
+    "Religious": 22,
     "Local": 3,
-    "General": 8
+    "General": 9
   },
   "channels": [
     {
@@ -86,15 +86,6 @@
       "country": ""
     },
     {
-      "name": "Press TV French (1080p)",
-      "category": "News",
-      "url": "https://live4.presstv.ir/live/smil:presstvfr.smil/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "PressTVFrench.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "VOA Persian (1080p)",
       "category": "News",
       "url": "https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8",
@@ -158,38 +149,11 @@
       "country": ""
     },
     {
-      "name": "GEM Food",
-      "category": "Entertainment",
-      "url": "https://ca-rt.onetv.app/gemfood/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMFood.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "GEM Life",
       "category": "Entertainment",
       "url": "https://ca-rt.onetv.app/gemlife/index-0.m3u8?token=onetv202",
       "source": "iptv-org-country-ir",
       "tvg_id": "GEMLife.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM Nature",
-      "category": "Entertainment",
-      "url": "https://ca-rt.onetv.app/gemnature/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMNature.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM River",
-      "category": "Entertainment",
-      "url": "https://ca-rt.onetv.app/gemriver/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMRiver.tr@SD",
       "language": "",
       "country": ""
     },
@@ -266,15 +230,6 @@
       "country": ""
     },
     {
-      "name": "Persiana Travel",
-      "category": "Entertainment",
-      "url": "https://ptravelhls.persiana.live/hls/stream.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "PersianaTravel.fr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "Persiana Turkiye",
       "category": "Entertainment",
       "url": "https://turkhls.persiana.live/hls/stream.m3u8",
@@ -307,6 +262,15 @@
       "url": "https://itnhls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "TVITN.ir@SD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "Afra Film",
+      "category": "Movies",
+      "url": "https://afrafhls.wns.live/hls/stream.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "AfraFilm.ir@SD",
       "language": "",
       "country": ""
     },
@@ -379,15 +343,6 @@
       "url": "https://ca-rt.onetv.app/gemfilm/index-0.m3u8?token=onetv202",
       "source": "iptv-org-country-ir",
       "tvg_id": "GEMFilm.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM Onyx",
-      "category": "Movies",
-      "url": "https://ca-rt.onetv.app/gemonyx/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMOnyx.tr@SD",
       "language": "",
       "country": ""
     },
@@ -505,6 +460,15 @@
       "url": "https://live.presstv.ir/hls/ifilmfa.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "iFilmPersian.ir@SD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "Maah TV (720p)",
+      "category": "Movies",
+      "url": "https://hls.maahtv.live/hls/stream.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "MaahTV.my@SD",
       "language": "",
       "country": ""
     },
@@ -653,6 +617,15 @@
       "country": ""
     },
     {
+      "name": "GEM Rubix Plus",
+      "category": "Music",
+      "url": "https://ca-rt.onetv.app/gemrubixplus/index-0.m3u8?token=onetv202",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "GEMRubixPlus.tr@SD",
+      "language": "",
+      "country": ""
+    },
+    {
       "name": "High Vision (1080p) [Not 24/7]",
       "category": "Music",
       "url": "https://streamer1.connectto.com/HIGHVISION_WEB_1205/index.m3u8",
@@ -667,24 +640,6 @@
       "url": "https://hls.navahang.live/hls/stream.m3u8",
       "source": "iptv-org-language-fas",
       "tvg_id": "NavahangTV.fi@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "PBC Tapesh TV",
-      "category": "Music",
-      "url": "http://iptv.tapesh.tv/tapesh/playlist.m3u8",
-      "source": "gitee-null_063_9458-ir",
-      "tvg_id": "",
-      "language": "Persian",
-      "country": ""
-    },
-    {
-      "name": "PBC Tapesh TV (720p)",
-      "category": "Music",
-      "url": "https://iptv.tapesh.tv/tapesh/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "PBCTapeshTV.us@SD",
       "language": "",
       "country": ""
     },
@@ -995,6 +950,15 @@
       "country": ""
     },
     {
+      "name": "WiseHumanTv (1080p)",
+      "category": "Religious",
+      "url": "https://avr.host247.net/live/WiseHumanTv/playlist.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "WiseHumanTv.ir@HD",
+      "language": "",
+      "country": ""
+    },
+    {
       "name": "Arax TV",
       "category": "Local",
       "url": "https://araxhls.wns.live/hls/stream.m3u8",
@@ -1018,6 +982,15 @@
       "url": "https://arvhls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "ArvanTV.ir@SD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "Asil TV (576p)",
+      "category": "General",
+      "url": "https://live.asil.tv/asiltv/index.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "AsilTV.ir@SD",
       "language": "",
       "country": ""
     },
