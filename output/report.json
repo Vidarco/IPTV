@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-24 07:21 UTC",
-  "total": 117,
+  "generated_at": "2026-05-31 07:47 UTC",
+  "total": 115,
   "by_category": {
     "News": 9,
-    "Entertainment": 19,
-    "Movies": 33,
-    "Music": 16,
+    "Entertainment": 20,
+    "Movies": 29,
+    "Music": 17,
     "Sports": 2,
     "Kids": 4,
     "Religious": 22,
@@ -28,15 +28,6 @@
       "url": "https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2.mpd",
       "source": "iptv-org-language-fas",
       "tvg_id": "BBCPersian.uk@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Didgah TV (576p)",
-      "category": "News",
-      "url": "https://media.streambrothers.com:1936/8276/8276/playlist.m3u8",
-      "source": "iptv-org-language-fas",
-      "tvg_id": "DidgahTV.us@SD",
       "language": "",
       "country": ""
     },
@@ -82,6 +73,15 @@
       "url": "https://tv.iraniancongress.com/stream/tv.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "NationalIranianCongressTV.us@SD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "Press TV French (1080p)",
+      "category": "News",
+      "url": "https://live4.presstv.ir/live/smil:presstvfr.smil/playlist.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "PressTVFrench.ir@SD",
       "language": "",
       "country": ""
     },
@@ -154,6 +154,15 @@
       "url": "https://ca-rt.onetv.app/gemlife/index-0.m3u8?token=onetv202",
       "source": "iptv-org-country-ir",
       "tvg_id": "GEMLife.tr@SD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "GEM River",
+      "category": "Entertainment",
+      "url": "https://ca-rt.onetv.app/gemriver/index-0.m3u8?token=onetv202",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "GEMRiver.tr@SD",
       "language": "",
       "country": ""
     },
@@ -302,15 +311,6 @@
       "country": ""
     },
     {
-      "name": "GEM Classic",
-      "category": "Movies",
-      "url": "https://ca-rt.onetv.app/gemclassic/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMClassic.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "GEM Comedy",
       "category": "Movies",
       "url": "https://ca-rt.onetv.app/gemcomedy/index-0.m3u8?token=onetv202",
@@ -352,15 +352,6 @@
       "url": "https://glserver1.tamashaland.com/live/aBCH96886YznRbGOiqTnnQ__/stream_0.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "GEMPixel.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM Series",
-      "category": "Movies",
-      "url": "https://ca-rt.onetv.app/gemseries/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMSeries.tr@SD",
       "language": "",
       "country": ""
     },
@@ -433,24 +424,6 @@
       "url": "https://live.presstv.ir/hls/ifilm2.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "iFilm2.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "iFilm Arabic",
-      "category": "Movies",
-      "url": "https://live.presstv.ir/hls/ifilmar.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "iFilmArabic.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "iFilm English",
-      "category": "Movies",
-      "url": "https://live.presstv.ir/hls/ifilmen.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "iFilmEnglish.ir@SD",
       "language": "",
       "country": ""
     },
@@ -599,15 +572,6 @@
       "country": ""
     },
     {
-      "name": "GEM Mifa Plus",
-      "category": "Music",
-      "url": "https://ca-rt.onetv.app/gemmifaplus/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMMifaPlus.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "GEM Rubix",
       "category": "Music",
       "url": "https://ca-rt.onetv.app/gemrubix/index-0.m3u8?token=onetv202",
@@ -640,6 +604,24 @@
       "url": "https://hls.navahang.live/hls/stream.m3u8",
       "source": "iptv-org-language-fas",
       "tvg_id": "NavahangTV.fi@SD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "PBC Tapesh TV",
+      "category": "Music",
+      "url": "http://iptv.tapesh.tv/tapesh/playlist.m3u8",
+      "source": "gitee-null_063_9458-ir",
+      "tvg_id": "",
+      "language": "Persian",
+      "country": ""
+    },
+    {
+      "name": "PBC Tapesh TV (720p)",
+      "category": "Music",
+      "url": "https://iptv.tapesh.tv/tapesh/playlist.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "PBCTapeshTV.us@SD",
       "language": "",
       "country": ""
     },
