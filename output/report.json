@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-31 07:47 UTC",
-  "total": 115,
+  "generated_at": "2026-06-07 07:56 UTC",
+  "total": 97,
   "by_category": {
     "News": 9,
-    "Entertainment": 20,
-    "Movies": 29,
-    "Music": 17,
+    "Entertainment": 16,
+    "Movies": 22,
+    "Music": 12,
     "Sports": 2,
-    "Kids": 4,
+    "Kids": 2,
     "Religious": 22,
     "Local": 3,
     "General": 9
@@ -149,42 +149,6 @@
       "country": ""
     },
     {
-      "name": "GEM Life",
-      "category": "Entertainment",
-      "url": "https://ca-rt.onetv.app/gemlife/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMLife.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM River",
-      "category": "Entertainment",
-      "url": "https://ca-rt.onetv.app/gemriver/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMRiver.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM River Plus",
-      "category": "Entertainment",
-      "url": "https://ca-rt.onetv.app/gemriverplus/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMRiverPlus.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Manoto TV",
-      "category": "Entertainment",
-      "url": "https://ca-rt.onetv.app/manototv/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "Manoto.uk@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "MBC Persia (1080p)",
       "category": "Entertainment",
       "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-persia/818ee8e4b592dc497608f066d825bfb4/index.m3u8",
@@ -293,92 +257,11 @@
       "country": ""
     },
     {
-      "name": "Ekran Movies",
-      "category": "Movies",
-      "url": "https://ca-rt.onetv.app/EkranMovies/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "EkranMovies.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM Bollywood",
-      "category": "Movies",
-      "url": "https://ca-rt.onetv.app/gembollywood/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMBollywood.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM Comedy",
-      "category": "Movies",
-      "url": "https://ca-rt.onetv.app/gemcomedy/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMComedy.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM Drama",
-      "category": "Movies",
-      "url": "https://ca-rt.onetv.app/gemdrama/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMDrama.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM Drama Plus",
-      "category": "Movies",
-      "url": "https://ca-rt.onetv.app/gemdramaplus/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMDramaPlus.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM Film",
-      "category": "Movies",
-      "url": "https://ca-rt.onetv.app/gemfilm/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMFilm.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "GEM Pixel",
       "category": "Movies",
       "url": "https://glserver1.tamashaland.com/live/aBCH96886YznRbGOiqTnnQ__/stream_0.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "GEMPixel.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM Series Plus",
-      "category": "Movies",
-      "url": "https://ca-rt.onetv.app/gemseriesplus/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMSeriesPlus.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM TV",
-      "category": "Movies",
-      "url": "https://ca-rt.onetv.app/gem/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMTV.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM TV Plus",
-      "category": "Movies",
-      "url": "https://ca-rt.onetv.app/gemtvplus/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMTVPlus.tr@SD",
       "language": "",
       "country": ""
     },
@@ -428,6 +311,24 @@
       "country": ""
     },
     {
+      "name": "iFilm Arabic",
+      "category": "Movies",
+      "url": "https://live.presstv.ir/hls/ifilmar.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "iFilmArabic.ir@SD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "iFilm English",
+      "category": "Movies",
+      "url": "https://live.presstv.ir/hls/ifilmen.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "iFilmEnglish.ir@SD",
+      "language": "",
+      "country": ""
+    },
+    {
       "name": "iFilm Persian",
       "category": "Movies",
       "url": "https://live.presstv.ir/hls/ifilmfa.m3u8",
@@ -442,6 +343,15 @@
       "url": "https://hls.maahtv.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "MaahTV.my@SD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "Meta Film TV",
+      "category": "Movies",
+      "url": "https://metafilmhls.wns.live/hls/stream.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "MetaFilmTV.ir@SD",
       "language": "",
       "country": ""
     },
@@ -527,15 +437,6 @@
       "country": ""
     },
     {
-      "name": "T2 Movies",
-      "category": "Movies",
-      "url": "https://ca-rt.onetv.app/T2Movies/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "T2Movies.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "4 Kurd",
       "category": "Music",
       "url": "https://4kuhls.persiana.live/hls/stream.m3u8",
@@ -563,33 +464,6 @@
       "country": ""
     },
     {
-      "name": "GEM Mifa",
-      "category": "Music",
-      "url": "https://ca-rt.onetv.app/gemmifa/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMMifa.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM Rubix",
-      "category": "Music",
-      "url": "https://ca-rt.onetv.app/gemrubix/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMRubix.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM Rubix Plus",
-      "category": "Music",
-      "url": "https://ca-rt.onetv.app/gemrubixplus/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMRubixPlus.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "High Vision (1080p) [Not 24/7]",
       "category": "Music",
       "url": "https://streamer1.connectto.com/HIGHVISION_WEB_1205/index.m3u8",
@@ -604,24 +478,6 @@
       "url": "https://hls.navahang.live/hls/stream.m3u8",
       "source": "iptv-org-language-fas",
       "tvg_id": "NavahangTV.fi@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "PBC Tapesh TV",
-      "category": "Music",
-      "url": "http://iptv.tapesh.tv/tapesh/playlist.m3u8",
-      "source": "gitee-null_063_9458-ir",
-      "tvg_id": "",
-      "language": "Persian",
-      "country": ""
-    },
-    {
-      "name": "PBC Tapesh TV (720p)",
-      "category": "Music",
-      "url": "https://iptv.tapesh.tv/tapesh/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "PBCTapeshTV.us@SD",
       "language": "",
       "country": ""
     },
@@ -703,24 +559,6 @@
       "url": "https://gg.hls2.xyz/live/Persiana%20Sports/playlist.m3u8",
       "source": "manual",
       "tvg_id": "persiana-sports-1",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM Junior",
-      "category": "Kids",
-      "url": "https://ca-rt.onetv.app/gemjunior/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMJunior.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM Kids",
-      "category": "Kids",
-      "url": "https://ca-rt.onetv.app/gemkids/index-0.m3u8?token=onetv202",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMKids.tr@SD",
       "language": "",
       "country": ""
     },
