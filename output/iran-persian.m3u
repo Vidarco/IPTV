@@ -1,6 +1,6 @@
 #EXTM3U
-# iran-persian.m3u  generated 2026-06-14 08:17 UTC
-# total: 96 channels  (News=7, Entertainment=16, Movies=22, Music=14, Sports=2, Kids=2, Religious=21, Local=3, General=9)
+# iran-persian.m3u  generated 2026-06-21 08:36 UTC
+# total: 96 channels  (News=7, Entertainment=16, Movies=22, Music=14, Sports=2, Kids=2, Religious=22, Local=3, General=8)
 # source: https://github.com/Vidarco/IPTV
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://i.imgur.com/jY1u1zz.png" group-title="News",Al-Alam
 http://live2.alalam.ir/live/Alalam_high/index.m3u8
@@ -142,6 +142,8 @@ https://media.parvizshahbazi.com/ganjehozour/Main_tv/playlist.m3u8
 https://icnet1hls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ICnet2.ca@SD" tvg-logo="https://i.imgur.com/Ke5xn4E.png" group-title="Religious",icnet 2
 https://icnet2hls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="icnet3.ca@SD" tvg-logo="" group-title="Religious",icnet 3
+https://ic3hls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ImamHusseinTV1.iq@SD" tvg-logo="https://i.imgur.com/pDdUvz7.png" group-title="Religious",Imam Hussein TV 1 (1080p) [Not 24/7]
 https://live.imamhossaintv.com/live/ih1.m3u8
 #EXTINF:-1 tvg-id="ImamHusseinTV2.iq@SD" tvg-logo="https://i.imgur.com/IXVSPdJ.png" group-title="Religious",Imam Hussein TV 2 (1080p) [Not 24/7]
@@ -178,8 +180,6 @@ https://araxhls.wns.live/hls/stream.m3u8
 https://arkhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ArvanTV.ir@SD" tvg-logo="" group-title="Local" source-group-title="Undefined",Arvan TV
 https://arvhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="AsilTV.ir@SD" tvg-logo="https://i.imgur.com/gROQqFD.png" group-title="General" source-group-title="Undefined",Asil TV (576p)
-https://live.asil.tv/asiltv/index.m3u8
 #EXTINF:-1 tvg-id="CafeTradeTV.ir@SD" tvg-logo="https://i.ibb.co/GW4cMfc/cafe-trade-tv.png" group-title="General" source-group-title="Business",Cafe Trade TV
 https://cafetradehls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ClassicTV.ir@SD" tvg-logo="" group-title="General" source-group-title="Classic",Classic TV

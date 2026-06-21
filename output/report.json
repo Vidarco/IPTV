@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14 08:17 UTC",
+  "generated_at": "2026-06-21 08:36 UTC",
   "total": 96,
   "by_category": {
     "News": 7,
@@ -8,9 +8,9 @@
     "Music": 14,
     "Sports": 2,
     "Kids": 2,
-    "Religious": 21,
+    "Religious": 22,
     "Local": 3,
-    "General": 9
+    "General": 8
   },
   "channels": [
     {
@@ -635,6 +635,15 @@
       "country": ""
     },
     {
+      "name": "icnet 3",
+      "category": "Religious",
+      "url": "https://ic3hls.wns.live/hls/stream.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "icnet3.ca@SD",
+      "language": "",
+      "country": ""
+    },
+    {
       "name": "Imam Hussein TV 1 (1080p) [Not 24/7]",
       "category": "Religious",
       "url": "https://live.imamhossaintv.com/live/ih1.m3u8",
@@ -793,15 +802,6 @@
       "url": "https://arvhls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "ArvanTV.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Asil TV (576p)",
-      "category": "General",
-      "url": "https://live.asil.tv/asiltv/index.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "AsilTV.ir@SD",
       "language": "",
       "country": ""
     },
