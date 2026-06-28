@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-21 08:36 UTC",
-  "total": 96,
+  "generated_at": "2026-06-28 07:52 UTC",
+  "total": 95,
   "by_category": {
-    "News": 7,
+    "News": 8,
     "Entertainment": 16,
     "Movies": 22,
     "Music": 14,
     "Sports": 2,
     "Kids": 2,
-    "Religious": 22,
+    "Religious": 20,
     "Local": 3,
     "General": 8
   },
@@ -23,9 +23,9 @@
       "country": ""
     },
     {
-      "name": "Iran International (720p)",
+      "name": "Iran International (1080p)",
       "category": "News",
-      "url": "https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8",
+      "url": "https://hlspackager.akamaized.net/live/DB/IRAN_INTERNATIONAL/HLS/IRAN_INTERNATIONAL.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "IranInternational.uk@SD",
       "language": "",
@@ -37,6 +37,15 @@
       "url": "https://live.presstv.ir/hls/presstv_5_482/index.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "IranPress.ir@SD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "IRINN (576p)",
+      "category": "News",
+      "url": "http://185.9.2.18/chid_926/index.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "IRINN.ir@SD",
       "language": "",
       "country": ""
     },
@@ -734,15 +743,6 @@
       "country": ""
     },
     {
-      "name": "RasoulallahTv (1080p)",
-      "category": "Religious",
-      "url": "https://avr.host247.net/live/rasoulallahtv/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "RasoulallahTv.ir@HD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "Sat7 Pars",
       "category": "Religious",
       "url": "https://sat7phls.wns.live/hls/stream.m3u8",
@@ -766,15 +766,6 @@
       "url": "https://nl.livekadeh.com/hls2/velayattv.m3u8",
       "source": "iptv-org-language-fas",
       "tvg_id": "VelayatTVNetwork.us@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "WiseHumanTv (1080p)",
-      "category": "Religious",
-      "url": "https://avr.host247.net/live/WiseHumanTv/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "WiseHumanTv.ir@HD",
       "language": "",
       "country": ""
     },
