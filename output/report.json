@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-28 07:52 UTC",
-  "total": 95,
+  "generated_at": "2026-07-05 07:26 UTC",
+  "total": 94,
   "by_category": {
     "News": 8,
     "Entertainment": 16,
     "Movies": 22,
     "Music": 14,
     "Sports": 2,
-    "Kids": 2,
+    "Kids": 1,
     "Religious": 20,
     "Local": 3,
     "General": 8
@@ -568,15 +568,6 @@
       "url": "https://gg.hls2.xyz/live/Persiana%20Sports/playlist.m3u8",
       "source": "manual",
       "tvg_id": "persiana-sports-1",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "HodHod Farsi TV (1080p)",
-      "category": "Kids",
-      "url": "https://northtelecom.b-cdn.net/hodhodtv.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "HodHodFarsiTV.ir@SD",
       "language": "",
       "country": ""
     },

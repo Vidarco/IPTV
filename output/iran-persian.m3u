@@ -1,6 +1,6 @@
 #EXTM3U
-# iran-persian.m3u  generated 2026-06-28 07:52 UTC
-# total: 95 channels  (News=8, Entertainment=16, Movies=22, Music=14, Sports=2, Kids=2, Religious=20, Local=3, General=8)
+# iran-persian.m3u  generated 2026-07-05 07:26 UTC
+# total: 94 channels  (News=8, Entertainment=16, Movies=22, Music=14, Sports=2, Kids=1, Religious=20, Local=3, General=8)
 # source: https://github.com/Vidarco/IPTV
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://i.imgur.com/jY1u1zz.png" group-title="News",Al-Alam
 http://live2.alalam.ir/live/Alalam_high/index.m3u8
@@ -128,8 +128,6 @@ https://fighthls.persiana.live/hls/stream.m3u8
 #EXTVLCOPT:http-referrer=https://www.aparatchi.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://gg.hls2.xyz/live/Persiana%20Sports/playlist.m3u8
-#EXTINF:-1 tvg-id="HodHodFarsiTV.ir@SD" tvg-logo="https://i.imgur.com/l8XMKTT.png" group-title="Kids",HodHod Farsi TV (1080p)
-https://northtelecom.b-cdn.net/hodhodtv.m3u8
 #EXTINF:-1 tvg-id="PersianaJunior.fr@SD" tvg-logo="https://i.imgur.com/zeKHZYG.png" group-title="Kids",Persiana Junior
 https://junhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AlWilayah.ir@SD" tvg-logo="https://i.imgur.com/OI1HQv5.png" group-title="Religious",Al Wilayah (720p)
