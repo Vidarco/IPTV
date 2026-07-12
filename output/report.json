@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-05 07:26 UTC",
-  "total": 94,
+  "generated_at": "2026-07-12 06:33 UTC",
+  "total": 93,
   "by_category": {
-    "News": 8,
+    "News": 9,
     "Entertainment": 16,
     "Movies": 22,
-    "Music": 14,
-    "Sports": 2,
+    "Music": 12,
+    "Sports": 1,
     "Kids": 1,
-    "Religious": 20,
+    "Religious": 21,
     "Local": 3,
     "General": 8
   },
@@ -20,6 +20,15 @@
       "source": "gitee-null_063_9458-ir",
       "tvg_id": "",
       "language": "Arabic",
+      "country": ""
+    },
+    {
+      "name": "Didgah TV (576p)",
+      "category": "News",
+      "url": "https://media.streambrothers.com:1936/8276/8276/playlist.m3u8",
+      "source": "iptv-org-language-fas",
+      "tvg_id": "DidgahTV.us@SD",
+      "language": "",
       "country": ""
     },
     {
@@ -473,24 +482,6 @@
       "country": ""
     },
     {
-      "name": "PBC Tapesh TV",
-      "category": "Music",
-      "url": "http://iptv.tapesh.tv/tapesh/playlist.m3u8",
-      "source": "gitee-null_063_9458-ir",
-      "tvg_id": "",
-      "language": "Persian",
-      "country": ""
-    },
-    {
-      "name": "PBC Tapesh TV (720p)",
-      "category": "Music",
-      "url": "https://iptv.tapesh.tv/tapesh/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "PBCTapeshTV.us@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "Persiana Folk",
       "category": "Music",
       "url": "https://sonhls.persiana.live/hls/stream.m3u8",
@@ -559,15 +550,6 @@
       "url": "https://fighthls.persiana.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "PersianaFight.fr@HD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Persiana Sports 1 (TEST)",
-      "category": "Sports",
-      "url": "https://gg.hls2.xyz/live/Persiana%20Sports/playlist.m3u8",
-      "source": "manual",
-      "tvg_id": "persiana-sports-1",
       "language": "",
       "country": ""
     },
@@ -730,6 +712,15 @@
       "url": "https://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "PayvandTV.ir@SD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "RasoulallahTv (1080p)",
+      "category": "Religious",
+      "url": "https://avr.host247.net/live/rasoulallahtv/playlist.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "RasoulallahTv.ir@HD",
       "language": "",
       "country": ""
     },
