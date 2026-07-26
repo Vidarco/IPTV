@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-19 06:30 UTC",
-  "total": 97,
+  "generated_at": "2026-07-26 06:37 UTC",
+  "total": 91,
   "by_category": {
-    "News": 9,
+    "News": 8,
     "Entertainment": 16,
-    "Movies": 22,
+    "Movies": 18,
     "Music": 14,
     "Sports": 1,
     "Kids": 1,
-    "Religious": 23,
+    "Religious": 22,
     "Local": 3,
     "General": 8
   },
@@ -37,15 +37,6 @@
       "url": "https://hlspackager.akamaized.net/live/DB/IRAN_INTERNATIONAL/HLS/IRAN_INTERNATIONAL.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "IranInternational.uk@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Iran Press",
-      "category": "News",
-      "url": "https://live.presstv.ir/hls/presstv_5_482/index.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "IranPress.ir@SD",
       "language": "",
       "country": ""
     },
@@ -302,42 +293,6 @@
       "country": ""
     },
     {
-      "name": "iFilm 2",
-      "category": "Movies",
-      "url": "https://live.presstv.ir/hls/ifilm2.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "iFilm2.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "iFilm Arabic",
-      "category": "Movies",
-      "url": "https://live.presstv.ir/hls/ifilmar.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "iFilmArabic.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "iFilm English",
-      "category": "Movies",
-      "url": "https://live.presstv.ir/hls/ifilmen.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "iFilmEnglish.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "iFilm Persian",
-      "category": "Movies",
-      "url": "https://live.presstv.ir/hls/ifilmfa.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "iFilmPersian.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "Maah TV (720p)",
       "category": "Movies",
       "url": "https://hls.maahtv.live/hls/stream.m3u8",
@@ -586,15 +541,6 @@
       "url": "https://nl.livekadeh.com/hls2/alwilayah_tv.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "AlWilayah.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Al-MahdiTV (1080p)",
-      "category": "Religious",
-      "url": "https://iptv.almahditv.com/almahditv/playlist.m3u8",
-      "source": "iptv-org-language-fas",
-      "tvg_id": "AlMahdiTV.us@SD",
       "language": "",
       "country": ""
     },

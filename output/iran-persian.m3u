@@ -1,6 +1,6 @@
 #EXTM3U
-# iran-persian.m3u  generated 2026-07-19 06:30 UTC
-# total: 97 channels  (News=9, Entertainment=16, Movies=22, Music=14, Sports=1, Kids=1, Religious=23, Local=3, General=8)
+# iran-persian.m3u  generated 2026-07-26 06:37 UTC
+# total: 91 channels  (News=8, Entertainment=16, Movies=18, Music=14, Sports=1, Kids=1, Religious=22, Local=3, General=8)
 # source: https://github.com/Vidarco/IPTV
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://i.imgur.com/jY1u1zz.png" group-title="News",Al-Alam
 http://live2.alalam.ir/live/Alalam_high/index.m3u8
@@ -8,8 +8,6 @@ http://live2.alalam.ir/live/Alalam_high/index.m3u8
 https://media.streambrothers.com:1936/8276/8276/playlist.m3u8
 #EXTINF:-1 tvg-id="IranInternational.uk@SD" tvg-logo="https://i.imgur.com/55RpaF3.png" group-title="News",Iran International (1080p)
 https://hlspackager.akamaized.net/live/DB/IRAN_INTERNATIONAL/HLS/IRAN_INTERNATIONAL.m3u8
-#EXTINF:-1 tvg-id="IranPress.ir@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/%D9%84%D9%88%DA%AF%D9%88_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86_%D9%BE%D8%B1%D8%B3.jpg/960px-%D9%84%D9%88%DA%AF%D9%88_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86_%D9%BE%D8%B1%D8%B3.jpg" group-title="News",Iran Press
-https://live.presstv.ir/hls/presstv_5_482/index.m3u8
 #EXTINF:-1 tvg-id="IRINN.ir@SD" tvg-logo="https://i.imgur.com/8tzsC9h.png" group-title="News",IRINN (576p)
 http://185.9.2.18/chid_926/index.m3u8
 #EXTINF:-1 tvg-id="MihanTV.ir@SD" tvg-logo="https://i.imgur.com/XEMsM7w.png" group-title="News",Mihan TV
@@ -66,14 +64,6 @@ https://gcinemahls.wns.live/hls/stream.m3u8
 https://homeplushls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ICCplus.us@SD" tvg-logo="" group-title="Movies",ICC Plus (1080p)
 https://icchls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="iFilm2.ir@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/c/ce/Ifilm2logo.png" group-title="Movies",iFilm 2
-https://live.presstv.ir/hls/ifilm2.m3u8
-#EXTINF:-1 tvg-id="iFilmArabic.ir@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="Movies",iFilm Arabic
-https://live.presstv.ir/hls/ifilmar.m3u8
-#EXTINF:-1 tvg-id="iFilmEnglish.ir@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="Movies",iFilm English
-https://live.presstv.ir/hls/ifilmen.m3u8
-#EXTINF:-1 tvg-id="iFilmPersian.ir@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="Movies",iFilm Persian
-https://live.presstv.ir/hls/ifilmfa.m3u8
 #EXTINF:-1 tvg-id="MaahTV.my@SD" tvg-logo="https://i.imgur.com/FkyueH6.png" group-title="Movies",Maah TV (720p)
 https://hls.maahtv.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="MetaFilmTV.ir@SD" tvg-logo="" group-title="Movies",Meta Film TV
@@ -130,8 +120,6 @@ https://fighthls.persiana.live/hls/stream.m3u8
 https://junhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AlWilayah.ir@SD" tvg-logo="https://i.imgur.com/OI1HQv5.png" group-title="Religious",Al Wilayah (720p)
 https://nl.livekadeh.com/hls2/alwilayah_tv.m3u8
-#EXTINF:-1 tvg-id="AlMahdiTV.us@SD" tvg-logo="https://i.imgur.com/S1YM83i.png" group-title="Religious",Al-MahdiTV (1080p)
-https://iptv.almahditv.com/almahditv/playlist.m3u8
 #EXTINF:-1 tvg-id="ErfanHalghehTV.ca@SD" tvg-logo="https://i.ibb.co/mGC5BMR/erfan-halgheh-tv-au.png" group-title="Religious",Erfan Halgheh TV (720p)
 https://hls.erfanhalgheh.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="GanjeHozourTV.us@SD" tvg-logo="https://i.imgur.com/TnQYtKh.png" group-title="Religious" source-group-title="General",Ganj e Hozour TV (1080p)
