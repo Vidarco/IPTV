@@ -1,6 +1,6 @@
 #EXTM3U
-# iran-persian.m3u  generated 2026-07-26 06:37 UTC
-# total: 91 channels  (News=8, Entertainment=16, Movies=18, Music=14, Sports=1, Kids=1, Religious=22, Local=3, General=8)
+# iran-persian.m3u  generated 2026-08-02 06:33 UTC
+# total: 92 channels  (News=8, Entertainment=16, Movies=18, Music=14, Sports=1, Kids=1, Religious=23, Local=3, General=8)
 # source: https://github.com/Vidarco/IPTV
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://i.imgur.com/jY1u1zz.png" group-title="News",Al-Alam
 http://live2.alalam.ir/live/Alalam_high/index.m3u8
@@ -120,6 +120,8 @@ https://fighthls.persiana.live/hls/stream.m3u8
 https://junhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AlWilayah.ir@SD" tvg-logo="https://i.imgur.com/OI1HQv5.png" group-title="Religious",Al Wilayah (720p)
 https://nl.livekadeh.com/hls2/alwilayah_tv.m3u8
+#EXTINF:-1 tvg-id="AlMahdiTV.us@SD" tvg-logo="https://i.imgur.com/S1YM83i.png" group-title="Religious",Al-MahdiTV (1080p)
+https://iptv.almahditv.com/almahditv/playlist.m3u8
 #EXTINF:-1 tvg-id="ErfanHalghehTV.ca@SD" tvg-logo="https://i.ibb.co/mGC5BMR/erfan-halgheh-tv-au.png" group-title="Religious",Erfan Halgheh TV (720p)
 https://hls.erfanhalgheh.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="GanjeHozourTV.us@SD" tvg-logo="https://i.imgur.com/TnQYtKh.png" group-title="Religious" source-group-title="General",Ganj e Hozour TV (1080p)

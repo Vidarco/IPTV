@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-26 06:37 UTC",
-  "total": 91,
+  "generated_at": "2026-08-02 06:33 UTC",
+  "total": 92,
   "by_category": {
     "News": 8,
     "Entertainment": 16,
@@ -8,7 +8,7 @@
     "Music": 14,
     "Sports": 1,
     "Kids": 1,
-    "Religious": 22,
+    "Religious": 23,
     "Local": 3,
     "General": 8
   },
@@ -541,6 +541,15 @@
       "url": "https://nl.livekadeh.com/hls2/alwilayah_tv.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "AlWilayah.ir@SD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "Al-MahdiTV (1080p)",
+      "category": "Religious",
+      "url": "https://iptv.almahditv.com/almahditv/playlist.m3u8",
+      "source": "iptv-org-language-fas",
+      "tvg_id": "AlMahdiTV.us@SD",
       "language": "",
       "country": ""
     },
