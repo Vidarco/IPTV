@@ -1,27 +1,18 @@
 {
-  "generated_at": "2026-08-02 06:33 UTC",
+  "generated_at": "2026-08-09 05:04 UTC",
   "total": 92,
   "by_category": {
-    "News": 8,
+    "News": 7,
     "Entertainment": 16,
     "Movies": 18,
     "Music": 14,
     "Sports": 1,
     "Kids": 1,
-    "Religious": 23,
+    "Religious": 24,
     "Local": 3,
     "General": 8
   },
   "channels": [
-    {
-      "name": "Al-Alam",
-      "category": "News",
-      "url": "http://live2.alalam.ir/live/Alalam_high/index.m3u8",
-      "source": "gitee-null_063_9458-ir",
-      "tvg_id": "",
-      "language": "Arabic",
-      "country": ""
-    },
     {
       "name": "Didgah TV (576p)",
       "category": "News",
@@ -743,6 +734,15 @@
       "country": ""
     },
     {
+      "name": "WiseHumanTv (1080p)",
+      "category": "Religious",
+      "url": "https://avr.host247.net/live/WiseHumanTv/playlist.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "WiseHumanTv.ir@HD",
+      "language": "",
+      "country": ""
+    },
+    {
       "name": "Arax TV",
       "category": "Local",
       "url": "https://araxhls.wns.live/hls/stream.m3u8",
@@ -770,6 +770,15 @@
       "country": ""
     },
     {
+      "name": "Asil TV (576p)",
+      "category": "General",
+      "url": "https://live.asil.tv/asiltv/index.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "AsilTV.ir@SD",
+      "language": "",
+      "country": ""
+    },
+    {
       "name": "Cafe Trade TV",
       "category": "General",
       "url": "https://cafetradehls.wns.live/hls/stream.m3u8",
@@ -784,15 +793,6 @@
       "url": "https://clshls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "ClassicTV.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Datis TV",
-      "category": "General",
-      "url": "https://dathls.wns.live/hls/stream.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "DatisTV.ir@SD",
       "language": "",
       "country": ""
     },
