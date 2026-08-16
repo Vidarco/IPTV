@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-09 05:04 UTC",
-  "total": 92,
+  "generated_at": "2026-08-16 04:35 UTC",
+  "total": 90,
   "by_category": {
     "News": 7,
     "Entertainment": 16,
@@ -10,7 +10,7 @@
     "Kids": 1,
     "Religious": 24,
     "Local": 3,
-    "General": 8
+    "General": 6
   },
   "channels": [
     {
@@ -770,15 +770,6 @@
       "country": ""
     },
     {
-      "name": "Asil TV (576p)",
-      "category": "General",
-      "url": "https://live.asil.tv/asiltv/index.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "AsilTV.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "Cafe Trade TV",
       "category": "General",
       "url": "https://cafetradehls.wns.live/hls/stream.m3u8",
@@ -820,15 +811,6 @@
       "url": "https://mtchls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-language-fas",
       "tvg_id": "MTC.us@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Payam Javan TV (720p) [Not 24/7]",
-      "category": "General",
-      "url": "https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "PayamJavanTV.us@SD",
       "language": "",
       "country": ""
     },
