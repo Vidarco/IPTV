@@ -1,18 +1,27 @@
 {
-  "generated_at": "2026-08-16 04:35 UTC",
-  "total": 90,
+  "generated_at": "2026-08-23 04:36 UTC",
+  "total": 98,
   "by_category": {
-    "News": 7,
+    "News": 9,
     "Entertainment": 16,
-    "Movies": 18,
-    "Music": 14,
+    "Movies": 22,
+    "Music": 15,
     "Sports": 1,
     "Kids": 1,
     "Religious": 24,
     "Local": 3,
-    "General": 6
+    "General": 7
   },
   "channels": [
+    {
+      "name": "Al-Alam",
+      "category": "News",
+      "url": "http://live2.alalam.ir/live/Alalam_high/index.m3u8",
+      "source": "gitee-null_063_9458-ir",
+      "tvg_id": "",
+      "language": "Arabic",
+      "country": ""
+    },
     {
       "name": "Didgah TV (576p)",
       "category": "News",
@@ -32,13 +41,13 @@
       "country": ""
     },
     {
-      "name": "IRINN (576p)",
+      "name": "IRINN",
       "category": "News",
       "url": "http://185.9.2.18/chid_926/index.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "IRINN.ir@SD",
+      "source": "free-tv-iptv-master",
+      "tvg_id": "IRINN.ir",
       "language": "",
-      "country": ""
+      "country": "IR"
     },
     {
       "name": "Mihan TV",
@@ -59,11 +68,20 @@
       "country": ""
     },
     {
-      "name": "Press TV French (1080p)",
+      "name": "Press TV French",
       "category": "News",
       "url": "https://live4.presstv.ir/live/smil:presstvfr.smil/playlist.m3u8",
+      "source": "free-tv-iptv-master",
+      "tvg_id": "PressTVFrench.ir",
+      "language": "",
+      "country": "IR"
+    },
+    {
+      "name": "SNN TV [Not 24/7]",
+      "category": "News",
+      "url": "https://live2.snn.ir/hls/snn2_hd720/index.m3u8",
       "source": "iptv-org-country-ir",
-      "tvg_id": "PressTVFrench.ir@SD",
+      "tvg_id": "SNNTV.ir@SD",
       "language": "",
       "country": ""
     },
@@ -131,13 +149,13 @@
       "country": ""
     },
     {
-      "name": "MBC Persia (1080p)",
+      "name": "MBC Persia",
       "category": "Entertainment",
       "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-persia/818ee8e4b592dc497608f066d825bfb4/index.m3u8",
-      "source": "iptv-org-language-fas",
-      "tvg_id": "MBCPersia.ae@SD",
+      "source": "free-tv-iptv-master",
+      "tvg_id": "MBCPersia.ae",
       "language": "",
-      "country": ""
+      "country": "AE"
     },
     {
       "name": "Omide Iran",
@@ -282,6 +300,42 @@
       "tvg_id": "ICCplus.us@SD",
       "language": "",
       "country": ""
+    },
+    {
+      "name": "iFilm",
+      "category": "Movies",
+      "url": "https://live.presstv.co.uk/hls/ifilmfa.m3u8",
+      "source": "free-tv-iptv-master",
+      "tvg_id": "iFilmPersian.ir",
+      "language": "",
+      "country": "IR"
+    },
+    {
+      "name": "iFilm 2 Ⓢ",
+      "category": "Movies",
+      "url": "https://live.presstv.co.uk/hls/ifilm2.m3u8",
+      "source": "free-tv-iptv-master",
+      "tvg_id": "iFilm2.ir",
+      "language": "",
+      "country": "IR"
+    },
+    {
+      "name": "iFilm Arabic Ⓢ",
+      "category": "Movies",
+      "url": "https://live.presstv.co.uk/hls/ifilmar.m3u8",
+      "source": "free-tv-iptv-master",
+      "tvg_id": "iFilmArabic.ir",
+      "language": "",
+      "country": "IR"
+    },
+    {
+      "name": "iFilm English Ⓢ",
+      "category": "Movies",
+      "url": "https://live.presstv.co.uk/hls/ifilmen.m3u8",
+      "source": "free-tv-iptv-master",
+      "tvg_id": "iFilmEnglish.ir",
+      "language": "",
+      "country": "IR"
     },
     {
       "name": "Maah TV (720p)",
@@ -469,6 +523,15 @@
       "url": "https://noshls.persiana.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "PersianaNostalgia.fr@SD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "Persiana Vibe",
+      "category": "Music",
+      "url": "https://raphls.persiana.live/hls/stream.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "PersianaVibe.fr@HD",
       "language": "",
       "country": ""
     },
@@ -766,6 +829,15 @@
       "url": "https://arvhls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "ArvanTV.ir@SD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "Asil TV (576p)",
+      "category": "General",
+      "url": "https://live.asil.tv/asiltv/index.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "AsilTV.ir@SD",
       "language": "",
       "country": ""
     },
