@@ -1,6 +1,6 @@
 #EXTM3U
-# iran-persian.m3u  generated 2026-08-23 04:36 UTC
-# total: 98 channels  (News=9, Entertainment=16, Movies=22, Music=15, Sports=1, Kids=1, Religious=24, Local=3, General=7)
+# iran-persian.m3u  generated 2026-08-30 09:47 UTC
+# total: 97 channels  (News=9, Entertainment=15, Movies=22, Music=15, Sports=1, Kids=1, Religious=24, Local=3, General=7)
 # source: https://github.com/Vidarco/IPTV
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://i.imgur.com/jY1u1zz.png" group-title="News",Al-Alam
 http://live2.alalam.ir/live/Alalam_high/index.m3u8
@@ -30,8 +30,6 @@ https://familyhls.avatv.live/hls/stream.m3u8
 https://avaserieshls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="FX1.ir@SD" tvg-logo="" group-title="Entertainment",FX TV 1
 https://fxtvhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="FX2.ir@SD" tvg-logo="" group-title="Entertainment",FX TV 2
-https://toonixhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="MBC Persia" tvg-logo="https://i.imgur.com/4FXiyjn.png" tvg-id="MBCPersia.ae" tvg-chno="12" tvg-country="AE" group-title="Entertainment" source-group-title="United Arab Emirates",MBC Persia
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-persia/818ee8e4b592dc497608f066d825bfb4/index.m3u8
 #EXTINF:-1 tvg-id="OmideIranTV.us@SD" tvg-logo="https://i.imgur.com/CeMf68L.png" group-title="Entertainment",Omide Iran
@@ -184,8 +182,6 @@ https://araxhls.wns.live/hls/stream.m3u8
 https://arkhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ArvanTV.ir@SD" tvg-logo="" group-title="Local" source-group-title="Undefined",Arvan TV
 https://arvhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="AsilTV.ir@SD" tvg-logo="https://i.imgur.com/gROQqFD.png" group-title="General" source-group-title="Undefined",Asil TV (576p)
-https://live.asil.tv/asiltv/index.m3u8
 #EXTINF:-1 tvg-id="CafeTradeTV.ir@SD" tvg-logo="https://i.ibb.co/GW4cMfc/cafe-trade-tv.png" group-title="General" source-group-title="Business",Cafe Trade TV
 https://cafetradehls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ClassicTV.ir@SD" tvg-logo="" group-title="General" source-group-title="Classic",Classic TV
@@ -196,5 +192,7 @@ https://hls.irannrtv.live/hls/stream.m3u8
 https://kjhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="MTC.us@SD" tvg-logo="https://i.imgur.com/JxoAR4j.png" group-title="General" source-group-title="Undefined",MTC TV
 https://mtchls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PayamJavanTV.us@SD" tvg-logo="https://i.imgur.com/GYfsHh9.png" group-title="General" source-group-title="Education",Payam Javan TV (720p) [Not 24/7]
+https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="TMTV.us@SD" tvg-logo="https://tmlive.tv/wp-content/uploads/2018/07/immigration-consultants-network-en-.png" group-title="General",TM TV (720p)
 https://hls.tmtv.live/hls/stream.m3u8
