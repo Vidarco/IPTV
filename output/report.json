@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-30 09:47 UTC",
+  "generated_at": "2026-09-06 08:24 UTC",
   "total": 97,
   "by_category": {
     "News": 9,
-    "Entertainment": 15,
+    "Entertainment": 16,
     "Movies": 22,
-    "Music": 15,
+    "Music": 13,
     "Sports": 1,
     "Kids": 1,
     "Religious": 24,
     "Local": 3,
-    "General": 7
+    "General": 8
   },
   "channels": [
     {
@@ -37,6 +37,15 @@
       "url": "https://hlspackager.akamaized.net/live/DB/IRAN_INTERNATIONAL/HLS/IRAN_INTERNATIONAL.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "IranInternational.uk@SD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "IraneFarda TV",
+      "category": "News",
+      "url": "https://iranefardalive.com/stream/live.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "IraneFardaTV.uk@SD",
       "language": "",
       "country": ""
     },
@@ -75,15 +84,6 @@
       "tvg_id": "PressTVFrench.ir",
       "language": "",
       "country": "IR"
-    },
-    {
-      "name": "SNN TV [Not 24/7]",
-      "category": "News",
-      "url": "https://live2.snn.ir/hls/snn2_hd720/index.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "SNNTV.ir@SD",
-      "language": "",
-      "country": ""
     },
     {
       "name": "VOA Persian (1080p)",
@@ -190,6 +190,15 @@
       "url": "https://onehls.persiana.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "PersianaSeries.fr@HD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "Persiana Travel",
+      "category": "Entertainment",
+      "url": "https://ptravelhls.persiana.live/hls/stream.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "PersianaTravel.fr@SD",
       "language": "",
       "country": ""
     },
@@ -469,24 +478,6 @@
       "url": "https://hls.navahang.live/hls/stream.m3u8",
       "source": "iptv-org-language-fas",
       "tvg_id": "NavahangTV.fi@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "PBC Tapesh TV",
-      "category": "Music",
-      "url": "http://iptv.tapesh.tv/tapesh/playlist.m3u8",
-      "source": "gitee-null_063_9458-ir",
-      "tvg_id": "",
-      "language": "Persian",
-      "country": ""
-    },
-    {
-      "name": "PBC Tapesh TV (720p)",
-      "category": "Music",
-      "url": "https://iptv.tapesh.tv/tapesh/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "PBCTapeshTV.us@SD",
       "language": "",
       "country": ""
     },
@@ -820,6 +811,15 @@
       "url": "https://arvhls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "ArvanTV.ir@SD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "Asil TV (576p)",
+      "category": "General",
+      "url": "https://live.asil.tv/asiltv/index.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "AsilTV.ir@SD",
       "language": "",
       "country": ""
     },
