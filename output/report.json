@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-06 08:24 UTC",
-  "total": 97,
+  "generated_at": "2026-09-20 09:06 UTC",
+  "total": 95,
   "by_category": {
     "News": 9,
-    "Entertainment": 16,
+    "Entertainment": 17,
     "Movies": 22,
     "Music": 13,
     "Sports": 1,
     "Kids": 1,
     "Religious": 24,
     "Local": 3,
-    "General": 8
+    "General": 5
   },
   "channels": [
     {
@@ -86,7 +86,7 @@
       "country": "IR"
     },
     {
-      "name": "VOA Persian (1080p)",
+      "name": "VoA TV Persian (1080p)",
       "category": "News",
       "url": "https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8",
       "source": "iptv-org-language-fas",
@@ -131,11 +131,20 @@
       "country": ""
     },
     {
-      "name": "FX TV 1",
+      "name": "FX 1",
       "category": "Entertainment",
       "url": "https://fxtvhls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "FX1.ir@SD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "FX 2",
+      "category": "Entertainment",
+      "url": "https://toonixhls.wns.live/hls/stream.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "FX2.ir@SD",
       "language": "",
       "country": ""
     },
@@ -149,7 +158,7 @@
       "country": "AE"
     },
     {
-      "name": "Omide Iran",
+      "name": "Omid e Iran TV",
       "category": "Entertainment",
       "url": "https://oitnhls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
@@ -284,7 +293,7 @@
       "country": ""
     },
     {
-      "name": "Home Plus",
+      "name": "HomePlus",
       "category": "Movies",
       "url": "https://homeplushls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-language-fas",
@@ -293,7 +302,7 @@
       "country": ""
     },
     {
-      "name": "ICC Plus (1080p)",
+      "name": "ICC plus (1080p)",
       "category": "Movies",
       "url": "https://icchls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
@@ -437,7 +446,16 @@
       "country": ""
     },
     {
-      "name": "4 Kurd",
+      "name": "4 Music",
+      "category": "Music",
+      "url": "https://musichls.persiana.live/hls/stream.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "4Music.fr@SD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "4Kurd",
       "category": "Music",
       "url": "https://4kuhls.persiana.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
@@ -464,7 +482,7 @@
       "country": ""
     },
     {
-      "name": "High Vision (1080p) [Not 24/7]",
+      "name": "High Vision TV (1080p) [Not 24/7]",
       "category": "Music",
       "url": "https://streamer1.connectto.com/HIGHVISION_WEB_1205/index.m3u8",
       "source": "iptv-org-country-ir",
@@ -487,15 +505,6 @@
       "url": "https://sonhls.persiana.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "PersianaFolk.fr@HD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Persiana Music",
-      "category": "Music",
-      "url": "https://musichls.persiana.live/hls/stream.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "4Music.fr@SD",
       "language": "",
       "country": ""
     },
@@ -536,7 +545,7 @@
       "country": ""
     },
     {
-      "name": "Radio Javan TV (1080p)",
+      "name": "RJTV (1080p)",
       "category": "Music",
       "url": "https://rjtvhls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
@@ -581,7 +590,7 @@
       "country": ""
     },
     {
-      "name": "Al-MahdiTV (1080p)",
+      "name": "Al-Mahdi TV (1080p)",
       "category": "Religious",
       "url": "https://iptv.almahditv.com/almahditv/playlist.m3u8",
       "source": "iptv-org-language-fas",
@@ -608,7 +617,7 @@
       "country": ""
     },
     {
-      "name": "icnet 1",
+      "name": "ICnet 1",
       "category": "Religious",
       "url": "https://icnet1hls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-language-fas",
@@ -617,7 +626,7 @@
       "country": ""
     },
     {
-      "name": "icnet 2",
+      "name": "ICnet 2",
       "category": "Religious",
       "url": "https://icnet2hls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
@@ -734,7 +743,7 @@
       "country": ""
     },
     {
-      "name": "Payvand TV (720p) [Not 24/7]",
+      "name": "Payvand TV (Iran) (720p) [Not 24/7]",
       "category": "Religious",
       "url": "https://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8",
       "source": "iptv-org-country-ir",
@@ -752,7 +761,7 @@
       "country": ""
     },
     {
-      "name": "Sat7 Pars",
+      "name": "Sat 7 Pars",
       "category": "Religious",
       "url": "https://sat7phls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-language-fas",
@@ -770,7 +779,7 @@
       "country": ""
     },
     {
-      "name": "Velayat TV (480p)",
+      "name": "Velayat TV Network (480p)",
       "category": "Religious",
       "url": "https://nl.livekadeh.com/hls2/velayattv.m3u8",
       "source": "iptv-org-language-fas",
@@ -815,24 +824,6 @@
       "country": ""
     },
     {
-      "name": "Asil TV (576p)",
-      "category": "General",
-      "url": "https://live.asil.tv/asiltv/index.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "AsilTV.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Cafe Trade TV",
-      "category": "General",
-      "url": "https://cafetradehls.wns.live/hls/stream.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "CafeTradeTV.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "Classic TV",
       "category": "General",
       "url": "https://clshls.wns.live/hls/stream.m3u8",
@@ -860,7 +851,7 @@
       "country": ""
     },
     {
-      "name": "MTC TV",
+      "name": "MTC",
       "category": "General",
       "url": "https://mtchls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-language-fas",
@@ -874,15 +865,6 @@
       "url": "https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "PayamJavanTV.us@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "TM TV (720p)",
-      "category": "General",
-      "url": "https://hls.tmtv.live/hls/stream.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "TMTV.us@SD",
       "language": "",
       "country": ""
     }
