@@ -1,6 +1,6 @@
 #EXTM3U
-# iran-persian.m3u  generated 2026-09-27 09:51 UTC
-# total: 96 channels  (News=8, Entertainment=17, Movies=22, Music=15, Sports=1, Kids=1, Religious=24, Local=3, General=5)
+# iran-persian.m3u  generated 2026-10-04 10:26 UTC
+# total: 93 channels  (News=8, Entertainment=17, Movies=20, Music=15, Sports=1, Kids=1, Religious=23, Local=3, General=5)
 # source: https://github.com/Vidarco/IPTV
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Arabic" tvg-logo="https://i.imgur.com/jY1u1zz.png" group-title="News",Al-Alam
 http://live2.alalam.ir/live/Alalam_high/index.m3u8
@@ -62,10 +62,6 @@ https://glserver1.tamashaland.com/live/aBCH96886YznRbGOiqTnnQ__/stream_0.m3u8
 https://moviethls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="GrandCinema.tr@SD" tvg-logo="" group-title="Movies",Grand Cinema
 https://gcinemahls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="HomePlus.ir@SD" tvg-logo="" group-title="Movies",HomePlus
-https://homeplushls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ICCplus.us@SD" tvg-logo="" group-title="Movies",ICC plus (1080p)
-https://icchls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="iFilm" tvg-logo="https://i.imgur.com/4Z9L1AW.png" tvg-id="iFilmPersian.ir" tvg-chno="18" tvg-country="IR" group-title="Movies" source-group-title="Iran",iFilm
 https://live.presstv.co.uk/hls/ifilmfa.m3u8
 #EXTINF:-1 tvg-name="iFilm 2" tvg-logo="https://i.imgur.com/WZrGsFb.png" tvg-id="iFilm2.ir" tvg-chno="4" tvg-country="IR" group-title="Movies" source-group-title="Iran",iFilm 2 Ⓢ
@@ -176,8 +172,6 @@ https://sat7phls.wns.live/hls/stream.m3u8
 https://hls.nejat.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="VelayatTVNetwork.us@SD" tvg-logo="https://i.imgur.com/bRQSzhs.png" group-title="Religious",Velayat TV Network (480p)
 https://nl.livekadeh.com/hls2/velayattv.m3u8
-#EXTINF:-1 tvg-id="WiseHumanTv.ir@HD" tvg-logo="https://i.imgur.com/BT7EtfB.png" group-title="Religious",WiseHumanTv (1080p)
-https://avr.host247.net/live/WiseHumanTv/playlist.m3u8
 #EXTINF:-1 tvg-id="AraxTV.ir@SD" tvg-logo="" group-title="Local" source-group-title="Undefined",Arax TV
 https://araxhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ArkoTV.ir@SD" tvg-logo="" group-title="Local" source-group-title="Undefined",Arko TV

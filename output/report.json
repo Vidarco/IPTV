@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-27 09:51 UTC",
-  "total": 96,
+  "generated_at": "2026-10-04 10:26 UTC",
+  "total": 93,
   "by_category": {
     "News": 8,
     "Entertainment": 17,
-    "Movies": 22,
+    "Movies": 20,
     "Music": 15,
     "Sports": 1,
     "Kids": 1,
-    "Religious": 24,
+    "Religious": 23,
     "Local": 3,
     "General": 5
   },
@@ -280,24 +280,6 @@
       "url": "https://gcinemahls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "GrandCinema.tr@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "HomePlus",
-      "category": "Movies",
-      "url": "https://homeplushls.wns.live/hls/stream.m3u8",
-      "source": "iptv-org-language-fas",
-      "tvg_id": "HomePlus.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "ICC plus (1080p)",
-      "category": "Movies",
-      "url": "https://icchls.wns.live/hls/stream.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "ICCplus.us@SD",
       "language": "",
       "country": ""
     },
@@ -793,15 +775,6 @@
       "url": "https://nl.livekadeh.com/hls2/velayattv.m3u8",
       "source": "iptv-org-language-fas",
       "tvg_id": "VelayatTVNetwork.us@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "WiseHumanTv (1080p)",
-      "category": "Religious",
-      "url": "https://avr.host247.net/live/WiseHumanTv/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "WiseHumanTv.ir@HD",
       "language": "",
       "country": ""
     },
