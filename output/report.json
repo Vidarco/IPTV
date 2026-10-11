@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-04 10:26 UTC",
-  "total": 93,
+  "generated_at": "2026-10-11 10:38 UTC",
+  "total": 92,
   "by_category": {
     "News": 8,
     "Entertainment": 17,
-    "Movies": 20,
+    "Movies": 19,
     "Music": 15,
     "Sports": 1,
-    "Kids": 1,
+    "Kids": 2,
     "Religious": 23,
     "Local": 3,
-    "General": 5
+    "General": 4
   },
   "channels": [
     {
@@ -253,15 +253,6 @@
       "url": "https://cafefhls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "CafeFilm.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "GEM Pixel",
-      "category": "Movies",
-      "url": "https://glserver1.tamashaland.com/live/aBCH96886YznRbGOiqTnnQ__/stream_0.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "GEMPixel.tr@SD",
       "language": "",
       "country": ""
     },
@@ -572,20 +563,20 @@
       "country": ""
     },
     {
+      "name": "Pooya TV",
+      "category": "Kids",
+      "url": "https://tgn.bozztv.com/eshgtv-dvrfl05/gin-iribpooya/tracks-v1a1/mono.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "PooyaTV.ir@SD",
+      "language": "",
+      "country": ""
+    },
+    {
       "name": "Al Wilayah (720p)",
       "category": "Religious",
       "url": "https://nl.livekadeh.com/hls2/alwilayah_tv.m3u8",
       "source": "iptv-org-country-ir",
       "tvg_id": "AlWilayah.ir@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Al-Mahdi TV (1080p)",
-      "category": "Religious",
-      "url": "https://iptv.almahditv.com/almahditv/playlist.m3u8",
-      "source": "iptv-org-language-fas",
-      "tvg_id": "AlMahdiTV.us@SD",
       "language": "",
       "country": ""
     },
@@ -779,6 +770,15 @@
       "country": ""
     },
     {
+      "name": "WiseHumanTv (1080p)",
+      "category": "Religious",
+      "url": "https://avr.host247.net/live/WiseHumanTv/playlist.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "WiseHumanTv.ir@HD",
+      "language": "",
+      "country": ""
+    },
+    {
       "name": "Arax TV",
       "category": "Local",
       "url": "https://araxhls.wns.live/hls/stream.m3u8",
@@ -838,15 +838,6 @@
       "url": "https://mtchls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-language-fas",
       "tvg_id": "MTC.us@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Payam Javan TV (720p) [Not 24/7]",
-      "category": "General",
-      "url": "https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "PayamJavanTV.us@SD",
       "language": "",
       "country": ""
     }
