@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-18 08:35 UTC",
-  "total": 93,
+  "generated_at": "2026-10-25 08:59 UTC",
+  "total": 92,
   "by_category": {
     "News": 8,
-    "Entertainment": 17,
+    "Entertainment": 16,
     "Movies": 19,
     "Music": 15,
     "Sports": 1,
@@ -217,15 +217,6 @@
       "url": "https://sh7hls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-language-fas",
       "tvg_id": "Shabakeh7.us@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Tin TV (720p)",
-      "category": "Entertainment",
-      "url": "https://tulixcdn.akamaized.net/tintv6/tintv/tintv/playlist.m3u8",
-      "source": "iptv-org-language-fas",
-      "tvg_id": "TinTV.us@SD",
       "language": "",
       "country": ""
     },
