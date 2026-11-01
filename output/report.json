@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-25 08:59 UTC",
-  "total": 92,
+  "generated_at": "2026-11-01 11:03 UTC",
+  "total": 94,
   "by_category": {
     "News": 8,
-    "Entertainment": 16,
+    "Entertainment": 17,
     "Movies": 19,
     "Music": 15,
     "Sports": 1,
     "Kids": 2,
     "Religious": 24,
     "Local": 3,
-    "General": 4
+    "General": 5
   },
   "channels": [
     {
@@ -217,6 +217,15 @@
       "url": "https://sh7hls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-language-fas",
       "tvg_id": "Shabakeh7.us@SD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "Tin TV (720p)",
+      "category": "Entertainment",
+      "url": "https://tulixcdn.akamaized.net/tintv6/tintv/tintv/playlist.m3u8",
+      "source": "iptv-org-language-fas",
+      "tvg_id": "TinTV.us@SD",
       "language": "",
       "country": ""
     },
@@ -838,6 +847,15 @@
       "url": "https://mtchls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-language-fas",
       "tvg_id": "MTC.us@SD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "Payam Javan TV (720p) [Not 24/7]",
+      "category": "General",
+      "url": "https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "PayamJavanTV.us@SD",
       "language": "",
       "country": ""
     }
