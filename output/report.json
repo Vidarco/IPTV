@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-01 11:03 UTC",
-  "total": 94,
+  "generated_at": "2026-11-08 11:04 UTC",
+  "total": 93,
   "by_category": {
-    "News": 8,
+    "News": 7,
     "Entertainment": 17,
     "Movies": 19,
     "Music": 15,
@@ -20,15 +20,6 @@
       "source": "gitee-null_063_9458-ir",
       "tvg_id": "",
       "language": "Arabic",
-      "country": ""
-    },
-    {
-      "name": "Didgah TV (576p)",
-      "category": "News",
-      "url": "https://media.streambrothers.com:1936/8276/8276/playlist.m3u8",
-      "source": "iptv-org-language-fas",
-      "tvg_id": "DidgahTV.us@SD",
-      "language": "",
       "country": ""
     },
     {
@@ -428,7 +419,7 @@
       "country": ""
     },
     {
-      "name": "AFN TV",
+      "name": "AFN TV (720p)",
       "category": "Music",
       "url": "https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8",
       "source": "iptv-org-country-ir",
@@ -689,7 +680,7 @@
       "country": ""
     },
     {
-      "name": "Iran Jewish TV",
+      "name": "Iran Jewish TV (720p)",
       "category": "Religious",
       "url": "http://iran620.com:1935/live/IranJewishTv/playlist.m3u8",
       "source": "iptv-org-country-ir",
