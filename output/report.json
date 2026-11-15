@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-08 11:04 UTC",
-  "total": 93,
+  "generated_at": "2026-11-15 11:47 UTC",
+  "total": 90,
   "by_category": {
-    "News": 7,
+    "News": 8,
     "Entertainment": 17,
     "Movies": 19,
-    "Music": 15,
+    "Music": 13,
     "Sports": 1,
     "Kids": 2,
-    "Religious": 24,
+    "Religious": 23,
     "Local": 3,
-    "General": 5
+    "General": 4
   },
   "channels": [
     {
@@ -20,6 +20,15 @@
       "source": "gitee-null_063_9458-ir",
       "tvg_id": "",
       "language": "Arabic",
+      "country": ""
+    },
+    {
+      "name": "Didgah TV (576p)",
+      "category": "News",
+      "url": "https://media.streambrothers.com:1936/8276/8276/playlist.m3u8",
+      "source": "iptv-org-language-fas",
+      "tvg_id": "DidgahTV.us@SD",
+      "language": "",
       "country": ""
     },
     {
@@ -455,24 +464,6 @@
       "country": ""
     },
     {
-      "name": "PBC Tapesh TV",
-      "category": "Music",
-      "url": "http://iptv.tapesh.tv/tapesh/playlist.m3u8",
-      "source": "gitee-null_063_9458-ir",
-      "tvg_id": "",
-      "language": "Persian",
-      "country": ""
-    },
-    {
-      "name": "PBC Tapesh TV (720p)",
-      "category": "Music",
-      "url": "https://iptv.tapesh.tv/tapesh/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "PBCTapeshTV.us@SD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "Persiana Folk",
       "category": "Music",
       "url": "https://sonhls.persiana.live/hls/stream.m3u8",
@@ -770,15 +761,6 @@
       "country": ""
     },
     {
-      "name": "WiseHumanTv (1080p)",
-      "category": "Religious",
-      "url": "https://avr.host247.net/live/WiseHumanTv/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "WiseHumanTv.ir@HD",
-      "language": "",
-      "country": ""
-    },
-    {
       "name": "Arax TV",
       "category": "Local",
       "url": "https://araxhls.wns.live/hls/stream.m3u8",
@@ -838,15 +820,6 @@
       "url": "https://mtchls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-language-fas",
       "tvg_id": "MTC.us@SD",
-      "language": "",
-      "country": ""
-    },
-    {
-      "name": "Payam Javan TV (720p) [Not 24/7]",
-      "category": "General",
-      "url": "https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8",
-      "source": "iptv-org-country-ir",
-      "tvg_id": "PayamJavanTV.us@SD",
       "language": "",
       "country": ""
     }
