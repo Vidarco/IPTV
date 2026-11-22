@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-15 11:47 UTC",
-  "total": 90,
+  "generated_at": "2026-11-22 12:18 UTC",
+  "total": 94,
   "by_category": {
-    "News": 8,
+    "News": 9,
     "Entertainment": 17,
     "Movies": 19,
-    "Music": 13,
+    "Music": 15,
     "Sports": 1,
     "Kids": 2,
     "Religious": 23,
     "Local": 3,
-    "General": 4
+    "General": 5
   },
   "channels": [
     {
@@ -75,6 +75,15 @@
       "tvg_id": "NationalIranianCongressTV.us@SD",
       "language": "",
       "country": ""
+    },
+    {
+      "name": "Press TV French",
+      "category": "News",
+      "url": "https://live4.presstv.ir/live/smil:presstvfr.smil/playlist.m3u8",
+      "source": "free-tv-iptv-master",
+      "tvg_id": "PressTVFrench.ir",
+      "language": "",
+      "country": "IR"
     },
     {
       "name": "VoA TV Persian (1080p)",
@@ -464,6 +473,24 @@
       "country": ""
     },
     {
+      "name": "PBC Tapesh TV",
+      "category": "Music",
+      "url": "http://iptv.tapesh.tv/tapesh/playlist.m3u8",
+      "source": "gitee-null_063_9458-ir",
+      "tvg_id": "",
+      "language": "Persian",
+      "country": ""
+    },
+    {
+      "name": "PBC Tapesh TV (720p)",
+      "category": "Music",
+      "url": "https://iptv.tapesh.tv/tapesh/playlist.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "PBCTapeshTV.us@SD",
+      "language": "",
+      "country": ""
+    },
+    {
       "name": "Persiana Folk",
       "category": "Music",
       "url": "https://sonhls.persiana.live/hls/stream.m3u8",
@@ -820,6 +847,15 @@
       "url": "https://mtchls.wns.live/hls/stream.m3u8",
       "source": "iptv-org-language-fas",
       "tvg_id": "MTC.us@SD",
+      "language": "",
+      "country": ""
+    },
+    {
+      "name": "Payam Javan TV (720p) [Not 24/7]",
+      "category": "General",
+      "url": "https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8",
+      "source": "iptv-org-country-ir",
+      "tvg_id": "PayamJavanTV.us@SD",
       "language": "",
       "country": ""
     }
